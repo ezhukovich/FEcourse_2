@@ -1,0 +1,24 @@
+.container {
+    border: 3px solid rgb(114, 107, 108);
+   position: absolute;
+   width: 600px;
+   height: 320px;
+   text-align: center;
+   color: rgb(92, 47, 47); 
+
+}
+
+
+body {
+    background: url(./img/shop.jpg);
+}
+
+.clothing {
+    float: left;
+    text-align: right;
+}
+
+.breakfast {
+float: left;
+}
+
