@@ -6,7 +6,7 @@
     box-sizing: border-box;
 
 }
-/*navigation*/
+/*navigation bar*/
 .navbar{
     z-index: 100;
     position: fixed;
