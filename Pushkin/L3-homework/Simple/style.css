@@ -1,0 +1,38 @@
+body{
+    margin: 5px 380px;
+    font-size: 18px;
+}
+h1{
+   
+    left: 300px;
+    text-align: center;
+    background-color: #A52A2A;
+    color: white;
+    
+
+}
+.weight{
+    font-weight: bolder;
+}
+.color{
+    color: blue;
+}
+.colorandi{
+    color: blue;
+    font-style: ;
+}
+.car{
+    border: 4px dashed black;
+}
+.cars{
+    position: relative;
+    right: -200px;
+    /* не лучше? margin: 5px 150px; */
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
