@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body{
+    background-color: aquamarine;
+}
+h1{
+    text-align: center;
+    color:#792929;
+    font-size: 40px;
+}
+section{
+  text-align: center; 
+  width: 500px; 
+  height: 500px;
+  
+}
+ul.game_row li{
+display: inline; /* Отображать как строчный элемент */
+margin: 1px;
+border: 2px solid #792929; /* Рамка вокруг текста */
+}
+#size{
+    transform:scale(2.10);
+    
+    }
