@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .1s ease-in;
+    font-family: 'Arimo', sans-serif;
+}
+
+.container{
+    margin: 2vh;
+    background: #3B3F45;
+    height: 96vh;
+}
+.header{
+    background: #4A4F56;
+    text-align: center;
+    color: #EB7E7F;
+}
+h1 {
+    padding: 15px 0;
+}
+h1 + h2{
+    padding-bottom: 15px;
+}
+.main{
+    margin: 40px auto 0 auto;
+    height: 10px;
+    width: 40vw;
+    background: #7D0909;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    font-size: 26px;
+    line-height: 50px;
+    background: #88839E;
+    padding-left: 20px;
+
+}
+li:nth-child(2n){
+    background: #7A7593;
+}
+
+input{
+    transform:scale(2.3);
+    opacity:0.9;
+    cursor:pointer;
+}
+span{
+    padding-left: 20px;
+}
+ul li:hover{
+    border-top: 3px white solid;
+    border-bottom: 3px white solid;
+    background: #625E77 ;
+}
+ul li:active{
+    background: #ff3a47;
+}
+ul li span {
+    color: white;
+}
+.item-1:after{
+    vertical-align: center;
+    padding-left: 5px;
+    font-size: 16px;
+    color: #C8B6B1;
+    content: ' ( for the next lessons about CSS )';
+}.item-2:after{
+     padding-left: 5px;
+     font-size: 16px;
+     color: #C8B6B1;
+    content: ' ( for the more CSS manipulations )';
+}.item-3:after{
+      padding-left: 5px;
+      font-size: 16px;
+      color: #C8B6B1;
+    content: ' ( because they are awesome )';
+}.item-4:after{
+       padding-left: 5px;
+       font-size: 16px;
+       color: #C8B6B1;
+    content: ' ( hmm... they always disappear )';
+}
+.item-6:after{
+         padding-left: 5px;
+         font-size: 16px;
+         color: #C8B6B1;
+    content: ' ( for my friends )';
+}
+ .item-1-1:checked ~ .item-1 {
+     color: #A3A0B5;
+     text-decoration: line-through;
+
+ }
+.item-1-1:checked ~ .item-1:after {
+    color: #A3A0B5;
+    text-decoration: line-through;
+}.item-1-2:checked ~ .item-2 {
+     color: #A3A0B5;
+     text-decoration: line-through;
+ }
+.item-1-2:checked ~ .item-2:after {
+    color: #A3A0B5;
+    text-decoration: line-through;
+}.item-1-3:checked ~ .item-3 {
+     color: #A3A0B5;
+     text-decoration: line-through;
+ }
+.item-1-3:checked ~ .item-3:after {
+    color: #A3A0B5;
+    text-decoration: line-through;
+}.item-1-4:checked ~ .item-4 {
+     color: #A3A0B5;
+     text-decoration: line-through;
+ }
+.item-1-4:checked ~ .item-4:after {
+    color: #A3A0B5;
+    text-decoration: line-through;
+}.item-1-5:checked ~ .item-5 {
+     color: #A3A0B5;
+     text-decoration: line-through;
+ }
+.item-1-5:checked ~ .item-5:after {
+    color: #A3A0B5;
+    text-decoration: line-through;
+}.item-1-6:checked ~ .item-6 {
+     color: #A3A0B5;
+     text-decoration: line-through;
+ }
+.item-1-6:checked ~ .item-6:after {
+    color: #A3A0B5;
+    text-decoration: line-through;
+}
+.appetit{
+    height: 60px;
+    margin-top: 40px;
+    background: #4A4F56;
+    text-align: center;
+    color: #EB7E7F;
+}
+.appetit span{
+    font-size: 26px;
+    line-height: 60px;
+}
+
