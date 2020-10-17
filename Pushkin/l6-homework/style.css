@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .1s ease-in;
+}
+body{
+    background-color: #3b3f45;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-size: 22px;
+}
+header,footer{
+   text-align: center;
+   color: #eb7e7b;
+
+}
+
+
+h1{
+    padding-top: 30px;
+}
+h2{
+    padding-bottom: 30px;
+}
+header,.bon{
+    background-color: #4a4f56;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+ul{ 
+    margin: 30px;
+    list-style-type: none;
+    
+}
+li{
+   display: flex;
+   align-items: center;
+    background-color: #88839e;
+    color: seashell;
+    width: 700px;
+    height: 50px;
+
+
+}
+li>span{
+    margin-left: 15px   ;
+}
+li.even{
+    background-color: #7a7593;
+}
+
+.bon{
+    padding: 15px 281px;
+}
+li:hover
+{
+    background-color: #625e77;
+    border-bottom: solid 3px white;
+    border-top: solid 3px white;
+}
+li:active{
+  
+   background-color: #eb7e7b; ;
+}
+li span.pickles:after{
+    content: "( for the next lessons bout CSS )";
+    color: #bdc1ce;
+    font-size: 13px;
+    position: relative;
+    bottom: 2px;
+    left: 3px;
+}
+
+li span.apples:after{
+    content: "(for more CSS manipulation )";
+    color: #bdc1ce;
+    font-size: 13px;
+    position: relative;
+    bottom: 2px;
+    left: 3px;
+}
+li span.oranges:after{
+    content: "(  because they are awesome )";
+    color: #bdc1ce;
+    font-size: 13px;
+    position: relative;
+    bottom: 2px;
+    left: 3px;
+}
+li span.plates:after{
+    content: "( hm they always disappear )";
+    color: #bdc1ce;
+    font-size: 13px;
+    position: relative;
+    bottom: 2px;
+    left: 3px;
+}
+li span.sake:after{
+    content: "( for my friends )";
+    color: #bdc1ce;
+    font-size: 13px;
+    position: relative;
+    bottom: 2px;
+    left: 3px;
+}
+
+input:checked+span
+{
+text-decoration-line: line-through;
+color: #a19fb4;
+}
+

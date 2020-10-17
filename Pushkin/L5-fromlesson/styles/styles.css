@@ -64,3 +64,11 @@ background-color: #fff;
 span.copyright>span{
     color: #00C7FC;
 }
+.social-links a:hover{
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+.social-links a:hover path{
+    fill: #121116;
+
+}
