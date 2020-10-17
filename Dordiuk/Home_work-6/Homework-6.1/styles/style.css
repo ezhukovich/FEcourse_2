@@ -45,13 +45,13 @@
     width: 62px;
     height: 62px;
     border-radius: 50%;
-    border: 1px solid #1275B9;
+    border: 1px solid #2a69a6;
     padding: 15px 18px;
     margin: 0px auto;
 }
 
 .circle-1:hover{
-    background-color:#1275B9;
+    background-color:#2a69a6;
 }
 
 .circle-1:hover path {
@@ -61,9 +61,9 @@
 .circle-2 {
     width: 62px;
     height: 62px;
-    border: 1px solid #1275B9;
+    border: 1px solid #2a69a6;
     border-radius: 50%;
-    background-color: #1275B9;
+    background-color: #2a69a6;
     padding: 17px;
     margin: 0px auto;  
 }
@@ -71,9 +71,9 @@
 .circle-3 {
     width: 62px;
     height: 62px;
-    border: 1px solid #1275B9;
+    border: 1px solid #2a69a6;
     border-radius: 50%;
-    background-color: #1275B9;
+    background-color: #2a69a6;
     padding: 17px;  
     background-size: 62px 62px;
     margin: 0px auto;
@@ -86,7 +86,7 @@
 }
 
 .circle-3:hover path, .circle-2:hover path {
-    fill: #1275B9;
+    fill: #2a69a6;
 }
 
 .text {
