@@ -59,4 +59,10 @@ justify-content: center;
 .copyright span{
     color: #00C7FC;
 }
-
+.social_links a:hover path{
+    background-color: #fff;
+    border-radius: 50px;
+}
+.social_links a:hover parth{
+fill: #121;
+}
