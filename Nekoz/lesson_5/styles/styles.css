@@ -58,3 +58,11 @@ span{
 span span {
     color: #00c7fc;
 }
+.social_links a:hover{
+    background: white;
+    border-radius: 50px;
+}
+
+.social_links a:hover path{
+    fill: black;
+}

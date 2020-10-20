@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Arimo', sans-serif;
+}
+.container{
+    background: #3399CC;
+    height: 100%;
+    max-width: 100vw;
+    border: 2vh solid #2B81AC;
+}
+.border{
+    margin: 20vh auto 20vh auto;
+    width: 40vw;
+}
+.grid{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 100px;
+}
+.box:nth-child(1){
+    grid-column: 1 / 3;
+}
+.box:nth-child(9){
+    grid-column: 2 / 4;
+    grid-row: 3;
+}
+.box:nth-last-child(1){
+    grid-column: 1 / 5;
+
+}
+.box{
+    position: relative;
+    text-align: center;
+    outline: 4px white solid;
+
+}
+.box:nth-child(2n){
+
+}
+.border:before{
+    font-size: 24px;
+    color: #FFFFFF;
+    display: inline-block;
+    padding-bottom: 40px;
+    content: 'CSS Weather Forecast ';
+}
+.border:after{
+    font-size: 18px;
+    color: #FFFFFF;
+    display: inline-block;
+    padding-top: 40px;
+    content: 'Have a nice day and don`t forget umbrella if you are in New Delhi now!';
+}
+span{
+    font-weight: bold;
+    display: inline-block;
+    padding-top: 10px;
+    text-transform: capitalize;
+    font-size: 20px;
+    opacity: 80%;
+    width: 100%;
+}
+span:hover{
+
+    background: white;
+    width: 100%;
+    height: 100%;
+    font-size: 21px;
+    opacity: 1;
+    transition: .5s ease-in-out;
+}
+.mainly-cloudy:before{
+    width: 100%;
+    position: absolute;
+    margin: 0 auto;
+    left: 10px;
+    bottom: 10px;
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    content: 'mainly-cloudy \f0c2';
+
+}.rainy:before{
+     width: 100%;
+    position: absolute;
+    margin: 0 auto;
+    left: 10px;
+    bottom: 10px;
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    content: 'Rainy \f73d';
+
+}.generally-cloudy:before{
+      width: 100%;
+    position: absolute;
+    margin: 0 auto;
+    left: 10px;
+    bottom: 10px;
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    content: 'Heavy rain \f740';
+
+}.sunny:before{
+    width: 100%;
+    position: absolute;
+    margin: 0 auto;
+    left: 10px;
+    bottom: 10px;
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    content: 'Sunny \f185';
+
+}.hot-sunny:before{
+        width: 100%;
+    position: absolute;
+    margin: 0 auto;
+    left: 10px;
+    bottom: 10px;
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    content: 'Heat \f5ca';
+
+}
+.temperature-mainly-cloudy:after{
+    font-weight: 600;
+    display: block;
+    font-size: 24px;
+    content: '+13℃';
+}.temperature-rainy:after{
+    display: block;
+     font-size: 24px;
+    content: '+10℃';
+}.temperature-generally-cloudy:after{
+    display: block;
+      font-size: 24px;
+    content: '+8℃';
+}.temperature-sunny:after{
+    display: block;
+    font-size: 24px;
+    content: '+24℃';
+}.temperature-hot-sunny:after{
+    display: block;
+        font-size: 24px;
+    content: '+30℃';
+}
+
+
+/*.mainly-cloudy:after{*/
+/*    position: absolute;*/
+/*    right: 10px;*/
+/*    top: 50px;*/
+/*    display: block;*/
+/*    font-family: "Font Awesome 5 Free";*/
+/*    font-weight: 900;*/
+/*    content: "\f0c2";*/
+
+/*}*/

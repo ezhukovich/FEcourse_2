@@ -89,12 +89,12 @@ ul li span {
          color: #C8B6B1;
     content: ' ( for my friends )';
 }
- .item-1-1:checked ~ .item-1 {
-     color: #A3A0B5;
-     text-decoration: line-through;
+ /*.item-1-1:checked ~ .item-1 {*/
+ /*    color: #A3A0B5;*/
+ /*    text-decoration: line-through;*/
 
- }
-.item-1-1:checked ~ .item-1:after {
+ /*}*/
+.item-1-1:checked ~ .item-1:after, .item-1-1:checked ~ .item-1 {
     color: #A3A0B5;
     text-decoration: line-through;
 }.item-1-2:checked ~ .item-2 {
