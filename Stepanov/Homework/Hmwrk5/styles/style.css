@@ -1,0 +1,205 @@
+        * {
+            margin: 0 auto;
+            padding: 0 auto;
+            box-sizing: border-box;
+            transition: all .1s ease-in;
+        }
+        
+        body {
+            background-color: dimgray;
+            display: flex;
+            align-items: center;
+            height: 700px;
+        }
+        
+        .container {
+            background-color: #3b3e45;
+            width: 1000px;
+            border: 10px solid white;
+            height: 500px;
+        }
+        
+        .header {
+            color: #ec7e7e;
+            text-align: center;
+            background-color: #4a4f55;
+            padding: 10px;
+        }
+        
+        .line {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            width: 500px;
+        }
+        
+        ul {
+            list-style-type: none;
+            color: white;
+            padding: 0;
+            font-size: 20px;
+        }
+        
+        .listelement1 {
+            background-color: #88849f;
+            height: 50px;
+            padding-top: 7px;
+            padding-left: 10px;
+        }
+        
+        .listelement2 {
+            background-color: #7a7593;
+            height: 50px;
+            padding-top: 7px;
+            padding-left: 10px;
+        }
+        
+        .appetit {
+            width: 500px;
+            height: 50px;
+            text-align: center;
+            background-color: #4a4f55;
+            display: flex;
+            align-items: center;
+            color: #ec7e7e;
+            font-size: 20px;
+        }
+        
+        .main {
+            width: 500px;
+            height: 300px;
+            align-items: center;
+        }
+        
+        .item1:after {
+            content: " ( for the next lessons about CSS ) ";
+            padding-left: 5px;
+            font-size: 16px;
+            color: #aea4b7;
+        }
+        
+        .item2:after {
+            content: " ( for more CSS manipulations ) ";
+            padding-left: 5px;
+            font-size: 16px;
+            color: #aea4b7;
+        }
+        
+        .item3:after {
+            content: " ( because they are awesome  ) ";
+            padding-left: 5px;
+            font-size: 16px;
+            color: #aea4b7;
+        }
+        
+        .item4:after {
+            content: " ( hm... they always disappear ) ";
+            padding-left: 5px;
+            font-size: 16px;
+            color: #aea4b7;
+        }
+        
+        .item6:after {
+            content: " ( for my friends ) ";
+            padding-left: 5px;
+            font-size: 16px;
+            color: #aea4b7;
+        }
+        
+        .line li:hover {
+            border-top: 3px solid white;
+            border-bottom: 3px solid white;
+            background-color: #625e77;
+        }
+        
+        .item:checked~.item1:after,
+        .item:checked~.item1 {
+            color: #aea4b7;
+            text-decoration: line-through;
+        }
+        
+        .item:checked~.item2:after,
+        .item:checked~.item2 {
+            color: #aea4b7;
+            text-decoration: line-through;
+        }
+        
+        .item:checked~.item3:after,
+        .item:checked~.item3 {
+            color: #aea4b7;
+            text-decoration: line-through;
+        }
+        
+        .item:checked~.item4:after,
+        .item:checked~.item4 {
+            color: #aea4b7;
+            text-decoration: line-through;
+        }
+        
+        .item:checked~.item5:after,
+        .item:checked~.item5 {
+            color: #aea4b7;
+            text-decoration: line-through;
+        }
+        
+        .item:checked~.item6:after,
+        .item:checked~.item6 {
+            color: #aea4b7;
+            text-decoration: line-through;
+        }
+        
+        input[type="checkbox"] {
+            display: none;
+        }
+        
+        label {
+            cursor: pointer;
+            font-weight: normal;
+            line-height: 30px;
+            padding: 10px 0;
+            vertical-align: middle;
+        }
+        
+        label:before {
+            content: " ";
+            color: #000;
+            display: inline-block;
+            /* шрифт Awesome*/
+            font: 20px/30px FontAwesome;
+            margin-right: 15px;
+            position: relative;
+            text-align: center;
+            text-indent: 0px;
+            width: 30px;
+            height: 30px;
+            background: #FFF;
+            border: 1px solid #e3e3e3;
+            border-image: initial;
+            vertical-align: middle;
+        }
+        
+        input:checked+label:before {
+            content: "\f00c";
+        }
+        
+        input:disabled+label:before {
+            background: #eee;
+            color: #aaa;
+        }
+        
+        .appetit a {
+            text-decoration: none;
+            width: 500px;
+            height: 45px;
+            background-color: #4a4f55;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ec7e7e;
+            font-size: 20px;
+        }
+        
+        .appetit a:hover {
+            background-color: #3b3e45;
+            border: 2px solid white;
+            cursor: pointer;
+        }
