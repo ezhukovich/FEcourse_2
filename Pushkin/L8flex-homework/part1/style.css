@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+main{
+    background-color: #FDDE7E;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 1200px;
+    height: 600px;
+}
+div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 366px;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.5)
+}
+div.bronze{
+    background-color: white;
+    height: 446px;
+}
+div.gold{
+    background-color: white;
+    height: 506px;
+    
+}
+div.silver{
+    background-color: white;
+    height: 446px;
+}
+.bean{
+    position: absolute;
+    left: 223px;
+    
+    top: 280px;
+    
+}
+.cash{
+   
+    font-family: 'Miso Bold';
+    font-size: 70px;
+    color: #02995B;
+    
+}
+.oferta{
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 20px;
+    width: 160px;
+    text-align: center;
+}
+.coffe-color{
+    font-family: 'Miso';
+    font-size: 56px;
+}
