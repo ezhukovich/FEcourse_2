@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    width: 900px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.container div{
+    width: 200px;
+    height: 200px;
+    margin: 16px 16px 16px 16px;
+}
+.container div:nth-child(odd){
+    background: #7D0909;
+}
+.container div:nth-child(even){
+    background: green;
+}
+.container div:nth-child(4n+1){
+     margin-left: 0;
+ }
+.container div:nth-child(4n+4){
+     margin-right: 0;
+ }
