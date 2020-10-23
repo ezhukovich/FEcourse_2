@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    padding: 120px 10px 38px;
+    background-color: #121116;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+}
+
+.wrapper img {
+    padding-bottom: 49px;
+}
+
+.footer-title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    line-height: 24px;
+    padding-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.devider {
+    width: 230px;
+    height: 1px;
+    background-color: #fff;
+}
+
+.social_links {
+    padding-top: 19px;
+    width: 156px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 73px;
+}
+
+.social_links a {
+    text-decoration: none;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #fff;
+}
+
+.copyright span {
+    color: #00C7FC;
+}
+
+.social_links a:hover {
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.social_links a:hover path {
+    fill: #121116;
+}
+
+.pogoda {
+    width: 1000px;
+    margin: 20px auto;
+    list-style-type: none;
+    /* font-size: 0; */
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: #121116; */
+    /* border: 1px solid #000; */
+}
+
+.pogoda li {
+    font-size: 10px;
+    outline: 1px solid #121116;
+    /* margin: 0.5px; */
+    /* border: 1px solid #000; */
+
+}
+
+.small {
+    /* display: inline-block; */
+    width: 250px;
+    height: 100px;
+    background-color: aqua;
+    /* font-size: 10px; */
+}
+
+.middle {
+    /* display: inline-block; */
+    width: 500px;
+    height: 100px;
+    background-color: #ff0;
+    /* font-size: 10px; */
+}
+
+.large {
+    /* display: inline-block; */
+    width: 1000px;
+    height: 100px;
+    background-color: #ff0000;
+    /* font-size: 10px; */
+}
