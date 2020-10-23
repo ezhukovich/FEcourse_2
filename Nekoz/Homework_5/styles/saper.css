@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+
+}
+
+a{
+    display: block;
+    float: left;
+    min-width: 100px;
+    min-height: 100px;
+    border: 1px solid black;
+    background: slategray;
+
+}
+.input{
+    background: slategray;
+    position: relative;
+    width: 500px;
+    height: 500px;
+
+}
+input{
+    margin-left: 100px;
+    z-index: 1000;
+    display: block;
+    min-width: 100px;
+    min-height: 100px;
+    border: 1px solid black;
+}
+input.r1:checked{
+    display: none;
+    margin-left: 100px;
+    min-width: 100px;
+    min-height: 100px;
+    background: #7D0909;
+
+}
+.blocks{
+
+}
+.block1{
+    border: 1px black solid;
+    width: 30px;
+    height: 30px;
+    background: blue;
+    margin: 5px;
+}.block2{
+     border: 1px black solid;
+    width: 30px;
+    height: 30px;
+    background: green;
+     margin: 5px;
+}.block3{
+      border: 1px black solid;
+    width: 30px;
+    height: 30px;
+    background: grey;
+      margin: 5px;
+}.block4{
+       border: 1px black solid;
+    width: 30px;
+    height: 30px;
+    background: white;
+       margin: 5px;
+}.block5{
+        border: 1px black solid;
+    width: 30px;
+    height: 30px;
+    background: red;
+        margin: 5px;
+}
+ p{
+     position: absolute;
+     left: 40px;
+ }
+.try a:visited{
+     background: blue url("ячейка.png");
+ }
+.try1 a:visited{
+    background: blue url("ячейка.png");
+}
+.try2 a:visited{
+    background: blue url("ячейка.png");
+}
+.white a:visited{
+    background: white url("ячейка.png");
+}
+.white a:visited{
+    background: white url("ячейка.png");
+}
+.try5 a:visited{
+    background: blue url("ячейка.png");
+}
+.try6 a:visited{
+     background: grey url("ячейка.png");
+ }
+.try7 a:visited {
+    background: blue url("ячейка.png");
+}
+.white a:visited{
+    background: white url("ячейка.png");
+}
+.white a:visited{
+    background: white url("ячейка.png");
+}
+.try10 a:visited{
+    background: green url("ячейка.png");
+}
+.try11 a:visited{
+    background: red url("ячейка.png");
+}
+.try12 a:visited{
+    background: green url("ячейка.png");
+}
+.try13 a:visited {
+    background: blue url("ячейка.png");
+}
+.white a:visited{
+    background: white url("ячейка.png");
+}
+.try15 a:visited{
+    background: grey url("ячейка.png");
+}
+.try16 a:visited{
+    background: red url("ячейка.png");
+}
+.try17 a:visited{
+    background: grey url("ячейка.png");
+}
+.try18 a:visited{
+    background: red url("ячейка.png");
+}
+.try19 a:visited{
+    background: green url("ячейка.png");
+}
+.try20 a:visited{
+    background: grey url("ячейка.png");
+}
+.try21 a:visited{
+    background: red url("ячейка.png");
+}
+.try22 a:visited{
+    background: green url("ячейка.png");
+}
+.try23 a:visited{
+    background: grey url("ячейка.png");
+}.try24 a:visited{
+     background: grey url("ячейка.png");
+ }

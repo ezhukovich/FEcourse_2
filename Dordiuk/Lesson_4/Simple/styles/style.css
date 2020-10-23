@@ -1,0 +1,38 @@
+header {
+    background-color: rgb(165, 42, 42);
+    text-align: center;
+    color: #ffffff;
+}
+
+.lorem {
+    font-size: 18px;
+}
+
+#sunset {
+    width: 100%;
+}
+
+#cars {
+    text-align: center;
+}
+
+#cursive {
+    font-style: italic;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none ;
+}
+
+footer {
+    font-size: 20px;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    text-align: center;
+}
+
+

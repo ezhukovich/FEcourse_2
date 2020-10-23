@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 759px;
+    margin: auto;
+    font-size: 18px;
+}
+.header{
+    color: #FFFFFF;
+    background: #A52A2A;
+    text-align: center;
+
+}
+span{
+    color: blue;
+}
+.image{
+    margin: 30px 0;
+    text-align: center;
+}
+.cars{
+    margin-top: 30px;
+    text-align: center;
+}
+.cars img{
+    border: 3px black dashed;
+}
+.second-par{
+    margin: 30px 0;
+}
+.footer{
+    font-size: 20px;
+    color: #FFFFFF;
+    background: black;
+    text-align: center;
+}

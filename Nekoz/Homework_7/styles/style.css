@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    margin: 0 auto;
+    width: 960px;
+}
+.title{
+    font-weight: 400;
+    font-size: 48px;
+    margin: 0 auto;
+    width: 532px;
+    color: #0ec8cb;
+    text-align: center;
+    text-transform: uppercase;
+}
+.title:before{
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    font-weight: bold;
+    font-size: 12px;
+    padding-top: 103px;
+    margin-bottom: 35px;
+    display: block;
+    content: 'who we are';
+    text-transform: uppercase;
+}
+.title:after{
+    line-height: 28px;
+    letter-spacing: 1px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    display: block;
+    content: 'we do not build websites but user experiences. We jugde our perfomance according to the impact it';
+    margin-top: 44px;
+}
+.main{
+    display: flex;
+}
+.section{
+    margin-top: 108px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 420px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(236, 236, 236);
+    background-color: rgb(247, 247, 247);
+    color: #777777;
+}
+span{
+    color: black;
+}
+.img{
+    margin-top: 0;
+    height: 66px;
+}
+.name{
+    font-size: 21px;
+    text-transform: uppercase;
+    margin: 44px 0 44px 0;
+    padding: 0 37px 0 37px;
+}
+.par{
+    font-family: 'PT Sans', sans-serif;
+    padding: 0 26px 0 30px;
+    font-size: 14px;
+}
+.section:hover {
+    color: white;
+    background-color: #0ec8cb;
+    border: none;
+}
+.section:hover span{
+    color: white;
+    background-color: #0ec8cb;
+    border: none;
+}
+.section:hover path{
+    fill: white;
+}
