@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px 10px;
+    height: 200vh;
+    /* position: relative; */
+    /* top: 5px; */
+    /* left: 10px; */
+}
+
+.absolute {
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+    position: relative;
+    /* top: 0; */
+    /* left: -5px; */
+
+}
+
+/* .qq {
+    width: 100px;
+    height: 30px;
+    background-color: chartreuse;
+} */
+
+.inside {
+    background-color: brown;
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+}
