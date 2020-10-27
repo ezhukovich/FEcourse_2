@@ -59,3 +59,10 @@ footer{
 .copyline span{
     color: #00c7fc;
 }
+.social-link a:hover{
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+.social-link a:hover path{
+    fill:#00c7fc;
+}
