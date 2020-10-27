@@ -1,0 +1,43 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+main {
+    width: 700px;
+    height: 300px;
+    margin: auto;
+    vertical-align: middle;
+}
+
+.wrapper {
+    border: 5px dashed rgb(187, 37, 37);
+    width: 700px;
+    height: 200px;
+}
+
+table {
+    width: 660px;
+    height: 190px;
+    margin: 0px auto;
+    padding: 15px 5px;
+    font-size: 25px;
+}
+
+button {
+   border-radius: 6px;
+   transition: 99999s;
+}
+
+.ok:active {
+    background: rgb(7, 240, 19);
+    color: rgb(58, 190, 69);
+    transition: 0s;
+}
+
+.bomb:active {
+    background: indianred;
+    color: lightcoral;
+    transition: 0s;
+}
