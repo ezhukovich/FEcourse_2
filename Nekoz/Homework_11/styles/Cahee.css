@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+.wrapper{
+    width: 1500px;
+    height: 1700px;
+    background: #00b9b9;
+    margin: 0 auto;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+        /*Header*/
+.container__header__container{
+    margin: 0 auto;
+    display: flex;
+    width: 1200px;
+    height: 147px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+.nav__btn{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #262626;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 37px;
+}
+.nav__btn:hover{
+    border-top: 3px solid #ff6033;
+    margin-bottom: 2px;
+    transition: .1s;
+}
+        /*Home*/
+.wrapper__home{
+    height: 1000px;
+    background: url("../images/bg_cahee.jpg");
+}
+.container__home{
+    background: blue;
+    height: 100%;
+}
+.home__info__title{
+    font-size: 60px;
+    font-weight: 800;
+}
+.home__info{
+    margin-top: 215px;
+    width: 400px;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home__info__paragraph{
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 25px;
+}
+.info__btn--btn{
+    margin-top: 35px;
+    display: flex;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-decoration: none;
+    color: white;
+    width: 200px;
+    height: 55px;
+    background: #ff6033;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+.info__btn--btn:hover{
+    background: #D85F33;
+    transition: .3s;
+}
+        /*About*/
+.about__fon{
+
+    height: 400px;
+    width: 650px;
+}
+.container__about{
+    display: flex;
+    justify-content: flex-end;
+    background: url("../images/cup.png") no-repeat left;
+    height: 700px;
+}
+.about_info{
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin-top: 180px;
+    width: 505px;
+    color: white;
+}
+.about_info__title{
+    font-size: 90px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.about_info__paragraph{
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 25px;
+    padding-bottom: 15px;
+}
