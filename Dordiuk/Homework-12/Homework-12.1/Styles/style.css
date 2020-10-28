@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1500px;
+    min-height: 650px;
+    background-image: url(/Images/Clip.png);
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container__text {
+    text-align: center;
+    color: #262626;
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    
+}
+
+.container__heading {
+    margin-bottom: 5px;
+}
+.container_heading {
+    font-size: 90px;
+    font-weight: bold;
+}
+
+.container__paragraph {
+    font-size: 17px;
+    font-weight: 300;
+    width: 370px;
+    margin: 0 auto;
+}
+
+.container__forms {
+    width: 500px;
+    margin-left: 165px;
+    margin-right: 170px;
+}
+
+input, textarea, .name {
+    width: 500px;
+    height: 50px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    background-color: #00C4C4;
+    color: #fff;
+    border: 1px solid transparent;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    border-left: 5px solid transparent;
+}
+
+input:hover, textarea:hover, .name:hover {
+    border-left: 5px solid #355B82;
+    background-color: #00C4C4;
+}
+
+textarea {
+    height: 250px;
+    padding-top: 20px;
+}
+
+.name {
+    padding-top: 17px;
+    font-weight: bold;
+}
+
+.container__private {
+    color: #262626;
+    width: 500px;
+    
+}
+
+.container__private__heading {
+    font-size: 17px;
+    font-weight: bold;
+}
+.container__private__text{
+    font-size: 20px;
+}
+
+.container__formBox {
+    display: flex;
+    margin-top: 35px;
+}
+
+/* Change color in placeholder */
+
+input[type="email"]::-webkit-input-placeholder {
+    color: #fff;
+   } 
+
+input[type="email"]::-moz-placeholder {
+    color: #fff;
+   }
+
+   input[type="tel"]::-webkit-input-placeholder {
+    color: #fff;
+   } 
+
+input[type="tel"]::-moz-placeholder {
+    color: #fff;
+   }
+
+textarea::-webkit-input-placeholder {
+    color: #fff;
+   } 
+
+textarea::-moz-placeholder {
+    color: #fff;
+   }
+
+   footer {
+       width: 1500px;
+       height: 90px;
+       background-color: #262626;
+       margin: 0 auto;
+       font-family: 'Raleway', sans-serif;
+       font-weight: 300;
+       color: #B9B9B9;
+       display: flex;
+       justify-content: space-around;
+       
+   }
+
+   a {
+       text-decoration: none;
+       color: #FF2B58;
+   }
+
+   .cahee {
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    padding-top: 25px;
+   }
+
+   .copyright, .who_made {
+       padding-top: 35px;
+   }
