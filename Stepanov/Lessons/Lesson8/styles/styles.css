@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    width: 450px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.container div {
+    margin: 8px;
+}
+
+.one {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+
+.two {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+.three {
+    width: 100px;
+    height: 100px;
+    background-color: #ffff00;
+}
+
+.four {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.five {
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+}
+
+.six {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+.seven {
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+}
+
+.eight {
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+}
+
+.nine {
+    width: 100px;
+    height: 100px;
+    background-color: darkblue;
+}
+
+.container :nth-child(4n-4) {
+    margin-right: 0;
+}
+
+.container :nth-child(4n+1) {
+    margin-left: 0;
+}
