@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles/weather-top.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.5/css/weather-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+</head>
+<body>
+<div class="container">
+    <div class="border" >
+        <i class="wi wi-sunrise" id="id"></i>
+        <div class="grid" >
+
+            <div class="box"><span class="span" id="box-1">Lisbon</span></div>
+            <div class="box"><span class="span" id="box-2">Paris</span></div>
+            <div class="box"><span class="span" id="box-3">Belgrade</span></div>
+            <div class="box"><span class="span" id="box-4">Moscow</span></div>
+            <div class="box"><span class="span" id="box-5">Tel Aviv</span></div>
+            <div class="box"><span class="span" id="box-6">Cair</span></div>
+            <div class="box"><span class="span" id="box-7">new york</span></div>
+            <div class="box"><span class="span" id="box-8">New delhi</span></div>
+            <div class="box"><span class="span" id="box-9">san francisco</span></div>
+            <div class="box"><span class="span" id="box-10">tokyo</span></div>
+            <div class="box"><span class="span" id="box-11">sydney</span></div>
+        </div>
+    </div>
+    <script>
+
+
+        b = getRandomIntInclusive();
+        function getRandomIntInclusive(min, max) {
+            min = Math.ceil(10);
+            max = Math.floor(15);
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+        console.log(b);
+
+        // for (var k = 0; k < document.getElementsByClassName('box').length; k++){
+        //     document.getElementsByClassName('span')[k].classList.add("temperature");
+        //
+        // }
+
+        // var elements = document.getElementsByClassName("temperature");
+        // for (var j = 0; j < elements.length; j++) {
+        //     elements[j].innerHTML = 'adas';
+        // }
+
+
+        var colors = [
+            '#737478', //Mainly cloudy
+            '#477491', //Rainy
+            '#283142', //Generally cloudy
+            '#F7E1A6', //Sunny
+            '#eda626']; //Hot sunny
+        for (var i = 0; i < document.getElementsByClassName('box').length; i++){
+            document.getElementsByClassName('box')[i].style.backgroundColor = colors[ Math.floor(Math.random() * colors.length)];
+            var a = document.getElementsByClassName('box')[i].style.backgroundColor;
+            if (a === 'rgb(115, 116, 120)'){
+                document.getElementsByClassName('span')[i].classList.add("mainly-cloudy");
+                document.getElementsByClassName('span')[i].classList.add("temperature-mainly-cloudy");
+                console.log('Mainly cloudy')
+            }else if(a === 'rgb(71, 116, 145)'){
+                document.getElementsByClassName('span')[i].classList.add("rainy");
+                document.getElementsByClassName('span')[i].classList.add("temperature-rainy");
+                console.log('Rainy')
+            }else if(a === 'rgb(40, 49, 66)'){
+                document.getElementsByClassName('span')[i].classList.add("generally-cloudy");
+                document.getElementsByClassName('span')[i].classList.add("temperature-generally-cloudy");
+                console.log('Generally cloudy')
+            }else if(a === 'rgb(247, 225, 166)'){
+                document.getElementsByClassName('span')[i].classList.add("sunny");
+                document.getElementsByClassName('span')[i].classList.add("temperature-sunny");
+                console.log('Sunny')
+            }else{
+                document.getElementsByClassName('span')[i].classList.add("hot-sunny");
+                document.getElementsByClassName('span')[i].classList.add("temperature-hot-sunny");
+                console.log('Hot sunny')
+            }
+
+        }
+    </script>
+</div>
+</body>
+</html>
