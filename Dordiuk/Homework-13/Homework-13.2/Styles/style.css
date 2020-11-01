@@ -1,0 +1,200 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    font-family: 'Lato', sans-serif;
+}
+
+.container__logo {
+    width: 1920px;
+    height: 1072px;
+    background-image: url(../Images/first.png);
+    text-transform: uppercase;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 285px 665px 115px 675px;
+}
+
+#logo {
+    margin-bottom: 80px;
+}
+
+.heading {
+    font-size: 53.9px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+#working {
+    margin-right: 250px;
+    margin-left: 250px;
+}
+
+.text {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 250px;
+}
+
+#help {
+    padding-left: 47px;
+}
+
+#design {
+    padding-left: 100px;
+}
+
+h2 {
+    font-size: 34px;
+    text-align: center;
+    margin-top: -22px;
+    padding-bottom: 55px;
+    text-transform: uppercase;
+   
+    
+}
+
+.container__about .border p:nth-child(3){
+    margin-bottom: 15px;
+}
+
+.border p:last-child {
+    padding-bottom: 25px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+}
+
+.container__about p {
+    text-align: left;
+    padding-left: 25%;
+}
+
+
+.border {
+    width: 902px;
+    border: 2px solid #3C3C3C;
+    margin: 160px 510px;
+    color: #3C3C3C;
+}
+
+.container__services {
+    background-image: url(../Images/services.jpg.png);
+    min-height: 488px;
+    width: 1920px;
+    text-align: center;
+    padding-top: 1px;
+}
+
+
+.container__services .border {
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+.minilogo {
+   margin: 35px 45%;
+}
+
+.container__whatWeDo p {
+    font-size: 14px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.pictures {
+    width: 1920px;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 484px;
+}
+
+#topworkz {
+    background-image: url(../Images/topworkz.png);
+}
+
+#joint {
+    background-image: url(../Images/joint.png);
+}
+
+#market {
+    background-image: url(../Images/market.png);
+}
+
+#worktop {
+    background-image: url(../Images/worktop.png);
+}
+
+#label {
+    background-image: url(../Images/lable.png);
+}
+
+#kyiv {
+    background-image: url(../Images/kyiv.png);
+}
+
+.pic {
+    width: 548px;
+    height: 235px;
+    outline: 10px solid #ffffff;
+    padding-top: 160px;
+    padding-left: 45px;
+}
+
+.pic.big {
+    width: 802px;
+}
+
+.bttn {
+    font-size: 25px;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(26, 24, 24);
+    color: #ffffff;
+    text-align: center;
+    padding-top: 8px;
+    margin: 30px auto;
+}
+
+.bttn:hover {
+    background-color: brown;
+    color: chartreuse;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    height:100px;
+   
+}
+
+#logo2 {
+    margin-right: 40px;
+    margin-bottom: 75px;
+    width: 35px;
+    height: 35px;
+}
+
+.pictures {
+    font-size: 34px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
