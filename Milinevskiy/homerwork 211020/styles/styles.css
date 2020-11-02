@@ -19,8 +19,8 @@ width: 1160px;
 height: 648px;
 display: flex;
 flex-direction: column;
-  justify-content: center;
-  align-items: flex-start
+justify-content: center;
+align-items: flex-start;
   
 }
 p.T{
