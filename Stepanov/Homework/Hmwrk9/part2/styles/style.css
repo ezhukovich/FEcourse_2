@@ -1,0 +1,139 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #464F54;
+    width: 1200px;
+    height: 800px;
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    background-color: #fff;
+    width: 1060px;
+    height: 650px;
+    position: relative;
+}
+
+.black {
+    background-color: #181818;
+    width: 700px;
+    height: 150px;
+    position: absolute;
+    left: 430px;
+    top: -75px;
+}
+
+.yellow {
+    background-color: #FBC02D;
+    width: 650px;
+    height: 50px;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    padding-right: 150px;
+    padding-left: 20px;
+}
+
+.line {
+    background-color: #E8ECED;
+    width: 2px;
+    height: 650px;
+    margin-right: 1000px;
+}
+
+.text {
+    width: 900px;
+    display: block;
+    position: absolute;
+    left: 150px;
+    top: 180px;
+}
+
+.small {
+    color: #B4B4B4;
+    font-size: 19px;
+    width: 200px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+
+.like {
+    font-size: 50px;
+    width: 500px;
+    margin-top: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.regular {
+    width: 500px;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    color: #8F8F8F;
+}
+
+.paragraph {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    margin-top: 70px;
+    margin-right: 150px;
+    font-weight: 400;
+}
+
+p span {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+}
+
+.title {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: #8F8F8F;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: lighter;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.in-black {
+    font-size: 40px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    position: absolute;
+    left: 40px;
+    top: 50px;
+}
+
+.border {
+    height: 1px;
+    width: 660px;
+    background-color: #707070;
+    position: absolute;
+    left: 40px;
+    top: 110px;
+}
+
+.yellow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+svg {
+    opacity: 0.502;
+}
+
+svg:hover {
+    opacity: 1;
+    cursor: pointer;
+}

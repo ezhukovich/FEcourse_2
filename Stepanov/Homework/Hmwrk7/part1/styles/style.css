@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.landing {
+    margin: 139px auto 139px auto;
+    width: 940px;
+}
+
+.header {
+    display: block;
+    width: 550px;
+    height: 210px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 68px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.first-section {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.4em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 15px;
+    width: 550px;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+.second-section {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    color: #0EC8CB;
+    text-align: right;
+    height: 64px;
+    width: 550px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.third-section {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 550px;
+    height: 89px;
+    padding: 12px;
+    margin-bottom: 68px;
+}
+
+.first-section,
+.third-section,
+p {
+    color: #777777;
+}
+
+.first-section,
+.second-section,
+span {
+    text-transform: uppercase;
+}
+
+section {
+    font-size: 0px;
+}
+
+section>div {
+    font-size: 15px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #F7F7F7;
+    height: 420px;
+    width: 235px;
+    outline: 1px solid #ECECEC;
+}
+
+section div span {
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.img {
+    width: 70px;
+    height: 65px;
+    display: block;
+    margin: 56px auto 35px auto;
+}
+
+div p {
+    margin: 24px auto 19px auto;
+    width: 174px;
+    height: 180px;
+    text-align: center;
+}
+
+span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+}
+
+p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+}
+
+.xd {
+    padding-top: 0;
+}
+
+.ps {
+    padding-top: 20px;
+}
+
+div.container:hover {
+    background-color: #0EC8CB;
+    color: white;
+}
+
+div.container:hover p {
+    color: white;
+}
+
+div.container:hover path {
+    fill: #F7F7F7;
+}
+
+.container {
+    cursor: pointer;
+}
