@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <title>lesson12</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="switch">
+            <a href="#">Sing in</a>
+            <a href="#">Join us</a>
+        </div>
+        <form action="#">
+            <div class="input">
+                <label for="user"> Username</label>
+                <input type="text" id="user" minlength="3">
+                <span class="error">error</span>
+            </div>
+            <div class="input">
+                <label for="pass"> Password</label>
+                <input type="password" id="pass" required>
+                <span class="error">error</span>
+            </div>
+            <div class="input checkbox">
+                <input class="checkbox-input" type="checkbox" id="form-singIn" name="singin">
+                <label class="checkbox-label" for="form-singIn"><span>Keep me signed in
+                    </span></label>
+            </div>
+            <button>Sing in</button>
+        </form>
+        <div class="links">
+            <a href="">Forgot password</a>
+            <a href="">Create an account</a>
+        </div>
+    </div>
+</body>
+
+</html>

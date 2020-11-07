@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .2s ease-in;
+}
+/* font-family: 'Lato', sans-serif; */
+.main-text{
+display: block;
+margin: 97px auto 60px auto;
+
+
+}
+.h1,.h2{
+    display: block;
+}
+hr{
+    width: 45px;
+    height: 4px;
+    background-color: #dddbdb;
+    border: none;
+    margin: 12px auto 35px auto;
+}
+.h1{
+    font-size: 34px;
+letter-spacing: 5px;
+color: #3c3c3c;
+font-weight: 700;
+font-family: "Lato";
+text-align: center;
+}
+.h2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 570px;
+   
+    font-size: 16px;
+        line-height: 24px;
+    color: #3c3c3c;
+    font-weight: 300;
+    font-family: "Lato";
+    text-align: center;
+}
+.containers{
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1170px;
+    height: 325px;
+}
+.containers>div{
+    width: 270px;
+    height: 325px;
+    position: relative;
+    
+}
+.name{
+   
+    font-size: 18px;
+line-height: 18px;
+color: #282528;
+font-weight: 700;
+font-family: "Lato";
+
+}
+.name::after
+{
+    display: block;
+    font-size: 14px;
+    line-height: 18px;
+    color: #646464;
+    font-weight: 300;
+    font-family: "Lato";
+}
+.cont1 .name::after{
+    content: 'Lead Designer';
+}
+.cont2 .name::after{
+    content: 'Developer';
+}
+.cont3 .name::after{
+    content: 'Artist';
+}
+.cont4 .name::after{
+    content: 'Graphic Designer';
+}
+.social{
+display: none;
+    position: absolute;
+    bottom: 57px;
+text-align: center;
+    width: 269px;
+height: 268px;
+background-color: #00aed9;
+}
+i{
+    font-size: 24px;
+    line-height: 30px;
+    color: white;
+    text-align: right;
+    margin-top: 7px;
+}
+.social-icons{
+    margin: 113px auto 113px auto;
+    display: flex;
+    width: 134px;
+    justify-content: space-between;
+}
+.icons{ 
+
+    width: 42px;
+    height: 42px;
+background-color: #5ECCE6;    
+}
+.containers>div:hover .social{
+    transition: 3s;
+    display: block;
+    
+}

@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 1500px;
+    height: 1087px;
+    background-image: url(../img/img.png);
+}
+.nav__header{
+    text-transform: uppercase;
+    text-align: right;
+    margin-right: 165px;
+    padding-top: 57px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding-left: 41px;
+    padding-top: 189px;
+}
+div.Fresh.Life{
+    display: block;
+    width: 324px;
+    padding-left: 161px;
+    padding-top: 224px;
+
+}
+main{
+    width: 1500px;
+    height: 750px;
+    background-color: #00C4C4;
+}
+div.wrapeer{
+    width: 500px;
+    height: 338px;
+    display: inline-block;
+    margin-top: 200px;
+    text-align: left;
+}
+.left{
+    float: left;
+    margin-left: 175px;
+}

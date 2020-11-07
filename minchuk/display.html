@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section {
+            background-color: orange;
+            padding: 20px;
+
+        }
+
+        p.Block {
+            background-color: orangered;
+            padding: 5px 20px;
+            line-height: 30px;
+            width: 500px;
+            height: 30px;
+            margin: 10px auto;
+
+        }
+
+        strong,
+        em {
+            background-color: yellow;
+            /* ширина высота не работают для строчный*/
+            margin: 0 20px;
+            /*margin top and bottom игнорируются */
+            padding: 15px;
+            /* не сдвигает элементы вокруг, а накладываются */
+            text-align: center;
+            /* как для блоков margin: 10px auto; не работает */
+        }
+
+        p.inlineBlock {
+            background-color: yellowgreen;
+            display: inline-block;
+            width: 200px;
+            height: 60px;
+            margin: 10px auto;
+            /* ведут себя как и ожидалось*/
+            padding: 10px;
+
+        }
+
+        /* вывод inline-block - это строчные для которых можно задать высоту, ширину и padding and margin */
+    </style>
+</head>
+
+<body>
+    <section>
+        Текст без тэга
+        <p class="Block">Блочный текст<strong>а тут строчный</strong><em>текст</em></p>
+        <p class="inlineBlock">Сделали блочно-строчный элемент</p>
+        <p class="inlineBlock">Сделали блочно строчный элемент</p>
+        Продолдение простого текста
+        <p class="Block">Блочный<strong>а тут строчный</strong><em>текст</em></p>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Proxima Nova";
+    src: url("fonts/Proxima Nova Regular.otf")format("opentype");
+}
+
+header{
+    
+    position: absolute;
+    z-index: 2;
+    width: 940px;
+    height: 187px;
+    background-color: black;
+    left: 260px;
+    top: 47px;
+}
+.title
+{
+    margin-left: 60px;
+    font-size: 15px;
+letter-spacing: 5px;
+line-height: 109px;
+color: #767676;
+font-family: "Proxima Nova";
+text-transform: uppercase;
+display: block;
+}
+nav{
+    position: absolute; 
+    z-index: 2;
+   
+    width: 876px;
+    height: 76px;
+    background-color: #ECB42A;
+    left: 324px;
+    top: 234px;
+
+
+}
+.class-rel{
+    margin-left: 42px;
+    width: 568px;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.background{
+    width: 1200px;
+    height: 900px;
+  
+    background-color: #464F54;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+    
+}
+.white-list{
+   
+    position: absolute;
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-top: 150px;
+    width: 1060px;
+    height: 750px;
+    
+    background-color: white;
+}
+
+.text{
+    
+    width: 804px;
+    margin-left: 120px;
+    margin-top: 195px;
+    
+}
+h3{
+    font-family:"Proxima Nova";
+    font-size: 19.84px;
+   color: #8F8F8F;
+}
+h1{
+    font-family: 'Volkhov', serif;
+    font-size: 77px;
+    font-weight: 400;
+ 
+}
+.graytext{
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 30px;
+    color: #8F8F8F;
+    font-weight: 400;
+    margin-bottom: 60px;
+    
+}
+p{
+    font-family: Georgia, serif;
+    font-size: 27px;
+    line-height: 40px;
+    
+}
+.italic{
+    font-style: italic;
+}
+hr{
+    position: relative;
+    right: 320px;
+    top: 374px;
+    transform: rotateZ(90deg);
+    
+}
+input{
+    position: absolute;
+    left: 60px;
+    bottom: 70px;
+    height: 50px;
+    background-color:black;
+    border: none;
+    outline: none;
+    font-size: 48px;
+line-height: 94px;
+color:#fefefe;
+font-weight: 400;
+font-family: "Playfair Display";
+}

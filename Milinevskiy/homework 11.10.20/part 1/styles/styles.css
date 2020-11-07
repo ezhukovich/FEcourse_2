@@ -1,0 +1,27 @@
+h1{
+    font-size: 200%;
+    background-color: #A62A2A;
+    color: #FCFEF6;
+    text-align: center;
+    margin-block-end: 2%;
+}
+p {
+    font-size: 18px;
+}
+.colortext{
+    color: #3031D2;  
+}
+.cars_img{
+    text-align: center;
+}
+.border_car{
+    border: 3px dotted #000000 ;
+    
+}
+footer{
+    font-size: 20px;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+ 

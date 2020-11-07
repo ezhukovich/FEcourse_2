@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper>*{
+    width: 600px;
+    margin: 0 auto;
+    background-color: aqua;
+    
+}
+li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+h1{
+    padding: 20px;
+}
+li:hover{
+    color:#fff;
+    background-color: rgb(46, 44, 43);
+}
