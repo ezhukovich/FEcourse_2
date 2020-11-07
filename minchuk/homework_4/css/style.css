@@ -1,0 +1,20 @@
+nav {
+    font-size: 18px;
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    float: left;
+}
+figcaption{
+    text-align: center;
+}
+footer{
+    background: url(../images/title.gif);
+    width: auto;
+}
+footer p{
+    font-size: 20px;;
+    margin: 0 auto;
+}

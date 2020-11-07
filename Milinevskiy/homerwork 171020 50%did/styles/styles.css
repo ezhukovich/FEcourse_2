@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-top: 50px;
+    background-color: aqua;
+}
+.weather{
+    
+    width: 1000px;
+    height: 100%;
+    font-size: 0px;
+    color: #fff;
+    
+}
+li{
+    display: inline-block;
+    font-size:24px;
+    text-align: center;
+    height: 50px;
+    border: 1px solid #fff;
+    padding: 5px;
+   
+}
+.middle{
+    width: 500px;
+    background-color: darkblue;
+    
+}
+.small{
+    width: 250px;
+    background-color: darkgrey;
+}
+.large{
+    width: 1000px;
+    background-color: darkmagenta;
+}
+.wi{
+    font-size: 19px;
+}
