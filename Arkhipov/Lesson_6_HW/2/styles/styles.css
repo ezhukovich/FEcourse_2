@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box;  */
+}
+
+.container{
+    margin-top: 2.5vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 96vw;
+    height: 95vh;
+    background-color: #3b3f45;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header{
+    height: 120px;
+    background-color: #4a4f56;
+    color: #eb7e7f;
+    text-align: center;
+}
+
+header h1{
+    font-size: 33px;
+    padding-top: 30px;
+}
+
+h1+p{
+    padding-top: 10px;
+    font-size: 22px;
+}
+
+main{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+
+main li{
+    position: relative;
+    height: 64px;
+    display: flex;
+    background-color: #88839e;
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+    color: white;    
+}
+
+main li:nth-child(even){
+    background-color: #7a7593;
+}
+
+main li:hover{
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    background-color: #77778E;
+    transition: all .1s ease-in;
+}
+
+main li:active{
+    background-color: #EE8979;
+    transition: all .1s ease-in;
+}
+
+input{
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 17px;
+    width: 25px;
+    height: 25px;
+}
+
+div label{
+    display: block;
+    width: 800px;
+}
+
+label span{
+    display: block;
+    margin-top: 16px;
+    position: relative;
+    margin-left: 65px;
+    font-size: 26px;
+}
+
+label span::after {
+    padding-left: 5px;
+    content:attr(data-info);
+    font-size: 17px;
+}
+
+input[type=checkbox]:checked + label {
+    text-decoration: line-through;
+    opacity: 50%;
+}
+
+
+footer{
+    margin-top:40px;
+    height: 75px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #4a4f56;
+    text-align: center;
+}
+
+footer p{
+   padding-top: 23px;
+   font-size: 25px;
+   color: #eb7e7f;
+}
