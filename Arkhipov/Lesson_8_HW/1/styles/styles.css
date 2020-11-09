@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Miso';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Miso'), url('../font/miso.woff') format('woff');
+    }
+     
+    @font-face {
+    font-family: 'Miso Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Miso Bold'), url('../font/miso-bold.woff') format('woff');
+    }
+
+body{
+    background-color: #fdde7e;
+}
+
+.flex-container{
+    display: flex;
+    margin: 150px auto;
+    width: 1140px;
+    height: 520px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-item{
+    flex: 0 1 361px;
+    height: 461px;
+    background-color:#fff;
+    border-radius: 2px;
+    box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: all .1s ease-in;
+}
+
+.flex-item:not(:hover) .content-container{
+    opacity: 0.5;
+    transition: all .1s ease-in;
+}
+
+.content-container{
+    width: 160px;
+    
+}
+
+.price{
+    font-family: 'Miso Bold';
+    color:#02995b;
+    font-size: 52px;
+}
+
+.image-container{
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 42px;
+}
+
+.smoke-img{
+    display: block;
+    margin: 0 auto 12px auto;
+}
+
+.cup-img{
+    display: block;
+    margin-left: 25px;
+}
+
+.bean-img{
+    position: absolute;
+    left: 62px;
+    top: 73px;
+}
+
+.flex-item:hover{
+    height: 502px;
+   
+}
+
+h2{
+    font-family: 'Miso';
+    font-size: 37px;
+    color: #333333;
+    margin-bottom: 35px;
+}
+
+p{
+    font-family: 'Miso';
+    font-size: 20pt;
+    color: #333333;
+}

@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #E2E7EC;
+    width: 100vW;
+    height: 100Vh;
+}
+
+.flex-container{
+    margin: 91px auto 100px auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 1120px;
+    height: 800px;
+    
+}
+
+.flex-item{
+    position: relative;
+    background-color: white;
+    width: 360px;
+    height: 540px;
+    margin-bottom: 20px;
+}
+
+.flex-item-main{
+    display: block;
+    width: 740px;
+}
+.image-container{
+    position: relative;
+}
+
+.image-container img{
+    display: block;
+}
+
+.image-gradient{
+    position: absolute;
+    width: 740px;
+    height: 494px;
+    background: linear-gradient(0deg,rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%);
+    bottom: 0px;
+}
+
+.text-container{
+    font-family: 'Hind', sans-serif;
+    position: absolute;
+    width: 298px;
+    top: 306px;
+    left:27px;
+    
+}
+
+.text-container a{
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #1d1d1d;
+}
+
+.text-container:before{
+    content: attr(data-time);
+    position: absolute;
+    font-weight: normal;
+    font-size: 13px;
+    letter-spacing: 0.03em;
+    line-height: 30px;
+    text-align: left;
+    color: #818181;
+    
+    top: -30px;
+}
+
+
+.text-container.main-block-text-container:before{
+    color: rgba(255,255,255, 0.5);
+}
+
+.main-block-text-container{
+    width: 410px;
+    top: 431px;
+    left:42px;
+}
+
+.main-block-text-container a{
+    font-size: 30px;
+    line-height: 36px;
+    color: #fff;
+}
+
+.author-image{
+    position: absolute;
+    top: 461px;
+    left:35px;
+}
+
+.content-loader{
+    font-family: 'Hind', sans-serif;
+    margin-top: 57px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: normal;
+    font-size: 13px;
+    letter-spacing: 0.03em;
+    line-height: 30px;
+    text-align: left;
+    color: #99a5b0;
+    display: flex;
+    margin-bottom: 25px;
+    
+}
+
+.content-loader span{
+    padding-left: 15px;
+}
