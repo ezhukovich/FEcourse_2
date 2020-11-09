@@ -1,0 +1,6 @@
+@mixin line($width) {
+    width:$width;
+    position: absolute;
+    height: 1px;
+    background-color: #ffcc00;
+}

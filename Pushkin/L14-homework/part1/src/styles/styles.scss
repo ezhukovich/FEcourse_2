@@ -1,0 +1,51 @@
+@import'reset';
+@import'mixins';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:wght@400;500&family=Roboto:wght@900&display=swap');
+
+
+.title{
+    display: flex;
+    flex-direction: column;
+    margin-top: 106px;
+}
+.title_small{
+    font-size: 18px;
+letter-spacing: 0px;
+line-height: 24px;
+color: #898f8f;
+font-weight: 500;
+font-family: "Raleway";
+text-align: center;
+}
+.title_big{
+    font-size: 60px;
+line-height: 66px;
+color: #ffcc00;
+font-weight: 900;
+font-family: "Roboto";
+text-align: center;
+}
+ion-icon{
+    font-size: 20px;
+letter-spacing: 0px;
+line-height: 24px;
+color: #ffcc00;
+
+}
+.title_rose{
+    width: 20px;
+    position: relative;
+    margin-top: 26px;
+    text-align: center;
+    background-color: black;
+
+    &::after{
+        content: "";
+        @include line(210px);
+        top: 9px;
+      
+    }
+    
+    
+
+}
