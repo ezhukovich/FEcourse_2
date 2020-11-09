@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav{
+width: 100%;
+height: 289px;
+background-color: #ffffff;
+}
+.container{
+width: 260px;
+height: 180px;
+}
+.logo{
+border-radius: 50%;
+width: 63px;
+height: 63px;
+color: black;
+}

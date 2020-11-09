@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .btn{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+} 
+.btn:hover{
+
+} */
+
+.wrapper{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px 10px;
+    /* position: relative; */
+
+}
+/* .fixed { 
+    height: 100px;
+    width: 100%;
+    background-color: blueviolet;
+    position: fixed;
+    top: 0;
+    left: 0;
+} */
+.absolute{ 
+    height: 100px;
+    width: 100%;
+    background-color: blueviolet;
+    position: relative; 
+    top: 0;
+    left: 0;
+}
