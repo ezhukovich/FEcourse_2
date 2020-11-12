@@ -203,3 +203,7 @@
             border: 2px solid white;
             cursor: pointer;
         }
+        
+        li {
+            padding: 0;
+        }

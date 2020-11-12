@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .25s ease-in-out;
+}
+body{
+    background-color: #B07CF7;
+    font-family: 'Raleway', sans-serif; 
+    color: white;
+}
+.h1{
+    display: block;
+    margin: 69px auto 0 auto;
+    
+     text-align: center;
+    font-size: 90px;
+/* line-height: 25px; */
+font-weight: 700;
+
+
+}
+.h2{
+    margin:20px auto 34px auto;
+display: block;
+width: 570px;
+height: 63px;
+font-size: 17px;
+line-height: 25px;
+color: #ffffff;
+font-weight: 300;
+font-family: "Raleway";
+text-align: center;
+
+}
+.container{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    height: 310px;
+
+}
+.container>div{
+    position: relative;
+    height: 310px;
+    width: 370px;
+filter: drop-shadow(0px 4px 5px rgba(0,0,0,0.5));
+}
+.block1{
+
+    
+    background-image: url(img/1.png);
+}
+.block2{
+    background-image: url(img/2.png);
+   
+}
+.block3{
+    background-image: url(img/3.png);
+    
+}
+.date{
+    
+    position: absolute;
+   top:25px;
+   left:30px;   
+   width: 60px;
+height: 60px;
+border-radius: 5px;
+background-color: #262626; 
+
+font-size: 32px;
+line-height: 25px;
+text-align: center;
+font-weight: 700;
+}
+.month{
+    margin-top: 3px;
+    display: block;
+    font-size: 21px;
+}
+.textbox{
+    padding-left: 10px;
+position: absolute;
+bottom: 4px;
+left: 4px;
+width: 370px;
+height: 79px;
+font-size: 20px;
+line-height: 25px;
+color: #ffffff;
+font-weight: 700;
+}
+.who-when{
+    font-weight: 300;
+    display: block;
+    font-size: 13px;
+}
+
+.button{
+    margin: 50px auto auto auto;
+    padding-top: 16px;
+    width: 200px;
+    height: 55px;
+    background-color: #F72B3B;
+    border: solid 1px #F72B3B;
+    text-align: center;
+    font-size: 20px;
+line-height: 25px;
+font-weight: 300;
+font-family: "Raleway";
+
+filter: drop-shadow(0px 2px 2.5px rgba(0,0,0,0.5));
+}
+
+    
+.inside{
+    background-image: linear-gradient(to top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%);
+    
+    width: inherit;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+}
+
+.container>div:hover{
+    transform:scale(1.1);  
+}
+.button:hover{
+    color: #ff7a59;
+    background:#fff;
+  }
