@@ -120,7 +120,7 @@ textarea::placeholder{
 }
 footer{
     color: #b9b9b9;
-    position: absolute;
+    position: fixed;
     display: flex;
     bottom: 0;
     width: 100%;
