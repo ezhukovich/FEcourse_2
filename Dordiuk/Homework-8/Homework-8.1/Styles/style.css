@@ -1,0 +1,117 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 1200px;
+    height: 600px;
+    background-color: #FDDE7E;
+    justify-content: center;
+    
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.bronze {
+    width: 366px;
+    height: 446px;
+    background: #ffffff;
+    margin-top: 79px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    text-align: center;
+    align-items: center;
+    
+}
+
+.gold {
+    width: 366px;
+    height: 506px;
+    background: #ffffff;
+    margin-top: 49px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    text-align: center;
+    align-items: center;
+}
+
+.silver {
+    width: 366px;
+    height: 446px;
+    background: #ffffff;
+    margin-top: 79px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    text-align: center;
+    align-items: center;
+}
+
+.smoke {
+    width: 49px;
+    height: 46px;
+    margin-top: 10px;
+}
+
+.smoke-1 {
+    width: 49px;
+    height: 46px;
+    margin-top: 25px;
+}
+
+.cup {
+    width: 135px;
+    height: 77px;
+    margin-top: 11px;
+}
+
+.cup-1 {
+    width: 135px;
+    height: 77px;
+    margin-top: 11px;
+}
+
+.money {
+    font-size: 78px; 
+    margin-top: 15px;
+    color: #02995B;
+}
+
+.money-1 {
+    font-size: 78px; 
+    margin-top: 25px;
+    color: #02995B;
+}
+
+.heading {
+    font-size: 56px;
+    margin-top: 15px;
+}
+
+.heading-1 {
+    font-size: 56px;
+    margin-top: 25px;
+}
+
+p {
+    font-size: 20px;
+    width: 140px;
+    font-weight: 25px;
+    margin-top: 35px;
+}
+
+.gld {
+    margin-top: 55px;
+}
+
+
+

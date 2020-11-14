@@ -1,0 +1,28 @@
+html{
+        background-color: cornsilk
+    }
+    .wrapper {
+        width: 1024px;
+        height: auto;
+        margin: 0 auto;
+    }
+    h1, h2 {
+        text-align: center;
+    }
+    img{
+        float: left;
+        margin-right: 20px;
+    }
+    .clearfix{
+        clear: both;
+    }
+    footer{
+        text-align: center;
+    }
+    section {
+        margin: 40px 0;
+    }
+    blockquote{
+        background: #F0F0F1;
+        border-left: 35px solid #3A3C55;
+    }

@@ -1,0 +1,60 @@
+.text {
+    background-color: brown;
+    text-align: center;
+    color: white;
+}
+
+.para {
+    font-size: 18px;
+}
+
+.photo {
+    width: 100%;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.link {
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.img1 {
+    border-color: black;
+    border-style: dashed;
+}
+
+.img2 {
+    border-color: black;
+    border-style: dashed;
+}
+
+.img3 {
+    border-color: black;
+    border-style: dashed;
+}
+
+.img4 {
+    border-color: black;
+    border-style: dashed;
+}
+
+.img5 {
+    border-color: black;
+    border-style: dashed;
+}
+
+.container {
+    text-align: center;
+}
+
+.foot {
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 25px;
+    font-size: 20px;
+}
