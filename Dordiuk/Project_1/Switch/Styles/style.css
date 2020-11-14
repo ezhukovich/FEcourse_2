@@ -1,0 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container__front {
+    width: 250px;
+    height: 400px;
+    background-color: #345322;
+    margin: 80px auto;
+    border-radius: 20px;
+    justify-content: ;
+}

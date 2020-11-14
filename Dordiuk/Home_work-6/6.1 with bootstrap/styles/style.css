@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 14px;
+    padding-top: 56px;
+    padding-bottom: 53px;
+}
+
+.container__heading {
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.container__text {
+    color: #9D9D9D;
+    font-weight: 300;
+    max-width: 260px;
+    margin: 0 auto;
+}
+
+.container__icon {
+    width: 63px;
+    height: 63px;
+    border: 1px solid #1275B9;
+    border-radius: 50%;
+    background-color: #1275B9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.container__icon:hover path {
+    fill: #1275B9;
+}
+
+.container__icon:hover {
+    background-color: #fff;
+}
+
