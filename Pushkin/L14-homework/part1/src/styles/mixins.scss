@@ -1,6 +1,12 @@
-@mixin line($width) {
+@mixin pseudoLine($width) {
     width:$width;
     position: absolute;
     height: 1px;
     background-color: #ffcc00;
+}
+@mixin yellowLine($width , $height)
+ {
+    background-color: #ffcc00;
+    height:$height;
+    width:$width;
 }
