@@ -86,6 +86,9 @@ position: relative;
 
 }
 @media screen and (max-width: 680px){
+    .container{
+        min-width: 100%;
+    }
     .nav_links.responsive{
         position: absolute;
         display: block;
@@ -111,7 +114,6 @@ position: relative;
         border: none;
     }
     .burger{
-        position: absolute;
         display: block;
         right: 20px;
     }
