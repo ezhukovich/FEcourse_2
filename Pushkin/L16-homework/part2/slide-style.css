@@ -12,7 +12,6 @@
   }
   
   .header__title {
-    display: flex;
    
     font-size: 50px;
     color: #262626;
@@ -77,32 +76,70 @@
     top: 891px;
     left: 50%;
   }
-  nav{
-      
-      flex-direction: column;
-      align-items: center;
-  }
-  .icon_burger{
-      position: absolute;
-      right: 100px;
-      right: 500px;
-  }
-  .burger{
-    
+  .header__nav {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 680px;
+    top: 40px;
+    right: 165px;
     font-size: 20px;
     color: #262626;
     font-weight: 400;
     font-family: "Pacifico";
   }
-  label{
-   display: flex;
-    justify-content: center;
-    
+  nav{
+      position: absolute;
+      left: -100px;
+     display: none;
+     align-items: center;
+    justify-content: space-between;
+      
+      width: 130px;
+      height: 100%;
   }
+  .burger{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff6033;
+    width: 100px;
+    height: 100%;
+  }
+
+  .burger_item{
+    font-size: 20px;
+    color: #262626;
+    font-weight: 400;
+    font-family: "Pacifico";
+  }
+  .namemenu{
+    writing-mode: vertical-lr;
+    letter-spacing: 3px;
+    color: #000;
+  }
+ 
 #burger_button{
   display: none;
 }
-  @media screen and (max-width:1100px){
+#burger_button:checked + nav{
+  
+left: 0px;
+position: fixed;
+transition: all 1s ease-in-out;
 
-
+}
+.height{
+  width: 100%;
+  height: 100vmax;
+}
+/* тут на дизайн не тратил время , главное идея :)  */
+@media screen and (max-width:1000px){
+  .header__nav{
+    display: none;
   }
+  nav{
+    display: flex;
+  }
+}

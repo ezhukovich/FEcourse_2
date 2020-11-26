@@ -793,3 +793,8 @@ i>a:hover{
     width: 350px;
 }
 }
+@media screen and (min-width:667px){
+    ul>li{
+        display: none;
+    }
+}
