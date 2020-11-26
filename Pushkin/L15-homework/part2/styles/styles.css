@@ -11,7 +11,7 @@ header{
     align-items: center;
     width: 100%;
     height: 1072px;
-    background-image: url(/Pushkin/L16-homework/part2/styles/img/bg.png);
+    background-image: url(/Pushkin/L15-homework/part2/styles/img/bg.png);
     background-position: center;
 }
 .header_logo{
@@ -100,7 +100,7 @@ font-family: "Lato";
 
 }
 .main_services{
-    background-image: url(/Pushkin/L16-homework/part2/styles/img/services.png);
+    background-image: url(/Pushkin/L15-homework/part2/styles/img/services.png);
     width: 100%;
     height: 488px;
     padding-top: 20px;
@@ -195,28 +195,28 @@ width: 190px;
     margin:158px 298px 32px 60px;
 }
 .topworkz{
-    background-image: url(/Pushkin/L16-homework/part2/styles/img/box1.png);
+    background-image: url(/Pushkin/L15-homework/part2/styles/img/box1.png);
 width: 28%;
 }
 .joint{
-    background-image: url(/Pushkin/L16-homework/part2/styles/img/box2.png);
+    background-image: url(/Pushkin/L15-homework/part2/styles/img/box2.png);
     width: 42%;
 }
 .market{
-    background-image: url(/Pushkin/L16-homework/part2/styles/img/box3.png);
+    background-image: url(/Pushkin/L15-homework/part2/styles/img/box3.png);
     width: 29%;}
 
 .worktop{
-    background-image: url(/Pushkin/L16-homework/part2/styles/img/box4.png);
+    background-image: url(/Pushkin/L15-homework/part2/styles/img/box4.png);
     width: 28%;
 }
 .label{
-    background-image: url(/Pushkin/L16-homework/part2/styles/img/box5.png);
+    background-image: url(/Pushkin/L15-homework/part2/styles/img/box5.png);
     width: 42%;
   
 }
 .kyiv{
-    background-image: url(/Pushkin/L16-homework/part2/styles/img/box6.png);
+    background-image: url(/Pushkin/L15-homework/part2/styles/img/box6.png);
     width: 29%;
 }
 
