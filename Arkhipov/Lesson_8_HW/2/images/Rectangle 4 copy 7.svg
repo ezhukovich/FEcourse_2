@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="740" height="494" viewBox="0 0 740 494">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgba(0,0,0,0);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-opacity="0.6"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="Rectangle_4_copy_7" data-name="Rectangle 4 copy 7" transform="translate(-240 -137)">
+    <rect id="Rectangle_4_copy_7-2" data-name="Rectangle 4 copy 7" class="cls-1" width="740" height="494" transform="translate(240 137)"/>
+    <path id="Gradient_Overlay" data-name="Gradient Overlay" class="cls-2" d="M240,137H980V631H240Z"/>
+  </g>
+</svg>
