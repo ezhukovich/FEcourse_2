@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.back-ground{
+    background: #b07cf7;
+    height: 100vh;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+.title span{
+    font-size: 90px;
+    color: white;
+    font-weight: bold;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.par{
+    padding: 20px 340px 55px 340px;
+    font-size: 17px;
+    text-align: center;
+}
+.blocks{
+    display: flex;
+    justify-content: space-around;
+
+}
+.section{
+    height: 310px;
+    width: 370px;
+    background: #7D0909;
+}
+.section{
+    position: relative;
+    overflow: hidden;
+
+}
+.section-date span{
+    display: block;
+    color: white;
+}
+.section-date{
+    display: block;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top:  30px;
+    left: 30px;
+    font-size: 32px;
+    text-align: center;
+    background-color: rgba(41, 38, 43, 0.6);
+    border-radius: 4px;
+    font-weight: bold;
+}
+.section-date span + span{
+    font-size: 21px;
+
+}
+.section-p{
+    position: absolute;
+    bottom: 55px;
+    left: 20px;
+    color: white;
+    padding-right: 30px;
+    font-size: 21px;
+    font-weight: bold;
+
+}
+.section-1-p:after{
+    position: absolute;
+    bottom: -30px;
+    font-weight: lighter;
+    font-size: 15px;
+    display: block;
+    content: 'By Auskteez - 2 hours ago';
+    opacity: 80%;
+}
+.btn{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.btn input{
+    width: 200px;
+    height: 55px;
+    text-transform: uppercase;
+    background: #f72b3b;
+    border: none;
+    font-weight: lighter;
+    font-size: 20px;
+    color: white;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    transition: .3s
+}
+.btn input:hover{
+    background: #D32B3A;
+    transition: .3s
+}
+.section{
+    transition: 2s;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+img{
+    transition: 1.3s ease-in-out;
+}
+img:hover{
+    transition: 1.3s ease-in-out;
+    transform: scale(1.2);
+
+}

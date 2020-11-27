@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+<script>
+
+    let circle = document.createElement('div');
+    document.body.appendChild(circle);
+    circle.id = 'circle';
+
+    let box = document.createElement('div');
+    document.body.appendChild(box);
+    box.id = 'box';
+
+    let rhombus = document.createElement('div');
+    document.body.appendChild(rhombus);
+    rhombus.id = 'rhombus';
+
+    let size = '50px';
+    let border = '1px solid black';
+    let borderRadius = '50%';
+    let angle = 'rotate(45deg)';
+
+    let elementStyles = () => {
+        box = document.getElementById('box');
+        box.style.border = border;
+        box.style.height = size;
+        box.style.width = size;
+
+        rhombus = document.getElementById('rhombus');
+        rhombus.style.border = border;
+        rhombus.style.height = size;
+        rhombus.style.width = size;
+        rhombus.style.transform = angle;
+
+        circle = document.getElementById('circle');
+        circle.style.border = border;
+        circle.style.height = size;
+        circle.style.width = size;
+        circle.style.borderRadius = borderRadius;
+    };
+
+    document.body.onload = elementStyles;
+</script>
+</body>
+</html>

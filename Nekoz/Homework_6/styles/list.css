@@ -81,7 +81,7 @@ ul li span {
        padding-left: 5px;
        font-size: 16px;
        color: #C8B6B1;
-    content: ' ( hmm... they always disappear )';
+    content: ' ( hmm... they always disappear <div>2</div>)';
 }
 .item-6:after{
          padding-left: 5px;
