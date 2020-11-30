@@ -8,6 +8,7 @@
   width: 100%;
     height: 1000px;
 background-image: url(/Pushkin/L14-homework/part2/Cahee/dist/img/img1.png);
+background-size: auto;
 
 
 position: relative;
@@ -112,8 +113,8 @@ a{
 }
 .main_content_text{
   margin-top: 50px;
-    width: 500px;
-    height: 202px;
+    max-width: 500px;
+    min-height: 202px;
     font-size: 17px;
     line-height: 27px;
     color: #ffffff;
@@ -341,6 +342,7 @@ transition: 0.3s ease ;
 
 // last part - contact
 ul{
+    
     list-style: none;
 }
 .wrapper_contact{
@@ -386,12 +388,12 @@ text-align: center;
     padding-bottom: 70px;
 }
 .main__section__form{
-    min-width: 500px;
+    max-width: 500px;
     
     
 }
 .main__section__adress{
-    width: 500px;
+    max-width: 500px;
    padding: 20px;
     font-size: 17px;
     line-height: 25px;
@@ -654,7 +656,7 @@ font-family: "Raleway";
     }
 }
 
-@media screen and (max-width:1216px){
+@media screen and (max-width:1235px){
     // header
     .header__title{
         left: 10px;
@@ -663,9 +665,17 @@ font-family: "Raleway";
         right: 10px;
     }
     // about us
+.main{
+    flex-direction: column;
     .main__image{
-        display: none;
+        
+        margin:0 auto;
+    
     }
+    .main__content{
+        align-items: center;
+    }
+}
     // gallery
     .photo1,.photo2,.photo3,.photo4,.photo5{
         margin-top: 20px;
@@ -747,6 +757,7 @@ font-family: "Raleway";
 @media screen and (max-width:576px){
     .header__content{
         left: 0%;
+
     }
     .photo5,.photo4{
         display: none;
@@ -769,5 +780,19 @@ font-family: "Raleway";
     .main__textbox{
         width: auto;
        
+    }
+    li input, textarea{
+        width: 270px;
+    }
+
+}
+@media screen and (max-width:425px){
+    .nav{
+        width: 300px;
+    }
+    .title-nav{
+        width: 200px;
+        justify-content: flex-start;
+        overflow-x: hidden;
     }
 }
