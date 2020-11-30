@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Playfair+Display:wght@400;500;600;700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+
+}
+
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+body{
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    color: #7a7a7a;
+    
+}
+
+main{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1400px;
+    box-shadow: 0px 0px 75px 0px rgba(112,112,112,0.3);
+    padding: 0;
+    margin-bottom: 100px;
+    
+    
+    
+}
+
+h1{
+    margin-top: 136px;
+    position: relative;
+    font-family: PlayfairDisplay-Regular;
+    font-weight: normal;
+    font-size: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #171717;
+    left:121px;
+    margin-bottom: 35px;
+}
+
+p{
+    position: relative;
+    left:121px;
+    width: 1160px;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 0em;
+    line-height: 34px;
+    text-align: left;
+    margin-bottom: 45px;
+    
+}
+
+
+p.initial-letter::first-letter{
+    
+    font-family: 'Playfair Display', serif;
+    color: #000;
+    margin-top: 13px;
+    vertical-align: baseline;
+    float:left;
+    font-weight: normal;
+    font-size: 110px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-right: 31px;
+}
+
+.cite span{
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    font-style: italic;    
+}
+
+
+.cite .cite-quotes{
+    font-family: 'Lato', sans-serif;
+    font-size: 60px;
+    font-weight: lighter;
+}
+
+.cite-text{
+    padding-left: 20px;
+}
+
+button{
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    font-size: 18pt;
+    border: 2px solid #EAA258;
+    color:  #EAA258;
+    background-color: white;
+    width: 264px;
+    height: 62px;
+    left: 121px;
+    margin-bottom: 121px;
+}

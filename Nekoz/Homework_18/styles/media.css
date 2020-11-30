@@ -1,0 +1,212 @@
+@media screen and (max-width: 1200px){
+    .video_page_video{
+        width: 970px;
+        height: 471px;
+    }
+}
+@media screen and (max-width: 1140px){
+    .full-bar{
+        width: 450px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .video_page_video{
+        width: 770px;
+        height: 371px;
+    }
+    .full-bar{
+        width: 350px;
+
+    }
+}
+@media screen and (max-width: 900px) {
+    .footer_content_column.column_3.column_default{
+        display: none;
+    }
+    .footer_content{
+        padding-bottom: 0;
+        align-items: center;
+    }
+    .footer_content_column.column_3.column_media{
+
+        display: flex;
+        margin: 25px auto 0 auto;
+        padding-bottom: 100px;
+    }
+    .column_3{
+        justify-content: center;
+    }
+    .sub_column3{
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width: 830px){
+    .gallery_links{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-auto-rows: 300px;
+    }
+    .gallery_item_7{
+        grid-column: 1 / 3;
+        grid-row: 3 / 4;
+
+    }
+    .skills_photo{
+        display: none;
+    }
+    .full-bar{
+        width: 500px;
+        height: 6px;
+    }
+    .percent-bar{
+        height: 6px;
+    }
+    .video_page_video{
+        width: 570px;
+        height: 271px;
+    }
+    .testimonials_content_info p{
+        font-size: 22px;
+        padding: 0 15px;
+    }
+    .numbers_content{
+        margin: 0 auto;
+        flex-wrap: wrap;
+        max-width: 500px;
+    }
+}
+@media screen and (max-width: 680px){
+    .header label{
+        display: flex;
+        position: fixed;
+        right: 30px;
+        z-index: 999;
+    }
+    #burger{
+        position: fixed;
+    }
+    .header__nav{
+        display: none;
+
+    }
+    .header__nav ul{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .header__nav ul li a{
+        font-size: 20px;
+        line-height: 40px;
+    }
+    form{
+        width: 450px;
+        padding: 0 15px;
+    }
+    .inputs{
+        display: flex;
+        flex-direction: column;
+
+    }
+    #name{
+        margin-bottom: 30px;
+    }
+    #name, #email{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 600px){
+    .video_page_video{
+        width: 470px;
+        height: 211px;
+    }
+    .services_item{
+        padding: 0 15px;
+        max-width: calc(100%/2);
+    }
+    .clients_logo:nth-last-child(1){
+        display: none;
+    }
+    .full-bar{
+        width: 420px;
+    }
+    .main_content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 85px 10px 0 0;
+    }
+    .gallery_links{
+
+        grid-auto-rows: 250px;
+    }
+}
+@media screen and (max-width: 500px){
+    .video_page_video{
+        width: 370px;
+        height: 201px;
+    }
+    .full-bar{
+        width: 380px;
+    }
+    .clients{
+        width: 300px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 64px auto;
+    }
+    .clients_logo{
+        padding: 10px;
+    }
+    .gallery_links{
+
+        grid-auto-rows: 200px;
+    }
+}
+@media screen and (max-width: 455px){
+    form{
+        width: 400px;
+
+    }
+    .numbers_content{
+        max-width: 300px;
+        padding: 20px 0;
+
+    }
+    .number_item{
+        margin: 10px 0;
+    }
+    .full-bar{
+        width: 330px;
+    }
+}
+@media screen and (max-width: 455px){
+    form{
+        max-width: 375px;
+    }
+    .footer_content{
+        flex-direction: column;
+        text-align: center;
+    }
+    .column_1{
+        margin-bottom: 10px;
+    }
+    .video_page_video{
+        width: 370px;
+        height: 201px;
+    }
+}
+@media screen and (max-width: 405px){
+    .video_page_video{
+        width: 330px;
+        height: 161px;
+    }
+}
+@media screen and (max-width: 375px){
+    .container{
+        min-width: 100%;
+    }
+}

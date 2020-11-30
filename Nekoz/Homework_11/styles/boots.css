@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #666666;
+}
+.background{
+    width: 800px;
+    height: 600px;
+    background: url("../images/bg.jpg");
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.name__main{
+    color: #d4d5d5;
+}
+.card{
+    width: 686px;
+    height: 391px;
+    background: #111a28;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: stretch;
+    border-radius: 10px;
+}
+.card__product{
+    flex-grow: 1;
+    position: relative;
+
+}
+.product__product{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.product__logo{
+    padding-left: 20px;
+    padding-top: 25px;
+}
+.product__slide{
+    width: 63px;
+    height: 10px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+}
+.slide__bullet{
+    width: 11px;
+    height: 11px;
+    background: #0ec8cb;
+    border-radius: 50%;
+    border: 2px solid #111a28;
+}
+.slide__bullet:hover{
+    border: 2px slategray solid;
+}
+.bullet__1{
+    background: #1f273f;
+}.bullet__2{
+    background: #ffffff;
+}.bullet__3{
+    background: #ed3333;
+}.bullet__4{
+    background: #29e3ea;
+}
+.card__about{
+    width: 245px;
+    display: flex;
+    flex-direction: column;
+}
+.about__rating{
+    padding-top: 25px;
+    padding-bottom: 28px;
+}
+.about__name{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 75px;
+    width: 175px;
+}
+.name__main{
+    font-size: 24px;
+}
+.name__main:after{
+    content: 'Unisex Skateboarding Shoe';
+    display: inline-block;
+    font-size: 14px;
+    padding-top: 15px;
+    color: #2e3541;
+}
+.about__option{
+    /*margin-top: 65px;*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.option__btn{
+    display: flex;
+    flex-direction: row;
+    width: 69px;
+    height: 32px;
+    border: 1px solid #4f5560;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4px;
+    color: #93969b;
+}
+.option__btn__qty{
+    margin-left: 2px;
+}
+.option__btn__buy{
+    margin-top: 40px;
+    width: 185px;
+    height: 40px;
+}
+.btn__content__size:after, .btn__content__qty:after{
+
+    content: '';
+    display: inline-block;
+    height: 6px;
+    width: 6px;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    transform: translate(4px, -1px) rotate(45deg);
+}
+.option__btn:hover .btn__content__size:after, .option__btn:hover .btn__content__qty:after{
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    border-right: none;
+    border-bottom: none;
+}
+.option__btn:hover{
+    transition: .3s;
+    background: #202835;
+}

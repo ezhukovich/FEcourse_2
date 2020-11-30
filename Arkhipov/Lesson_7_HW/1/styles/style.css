@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+.container{
+    position: relative;
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    margin: 15% auto 109px auto;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 30px;
+}
+
+header p:first-child span{
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px; 
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #898F99;
+    letter-spacing: 4.5px;
+    margin-bottom: 35px; 
+}
+
+header h1{
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #0EC8CB;
+    letter-spacing: 4.5px;
+    margin-bottom: 45px;
+}
+
+h1+p{
+    margin:0 auto;
+    width: 505px;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #999999;
+}
+
+main{
+    display: flex;
+}
+
+.column{
+    position: relative;
+    width: 235px;
+    height: 420px;
+    text-align: center;
+}
+
+.icon-container{
+    width: 64px;
+    margin-top: 56px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 56px;
+}
+
+.column:hover .icon-container svg path{
+    fill: #fff;
+}
+
+.column h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    line-height: 25.2px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 33px;
+
+}
+.column p{
+    margin-left: auto;
+    margin-right: auto;
+    width: 174px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #777777;
+}
+
+.column:hover, .column:hover p{
+    color: white;
+    background-color: #0EC8CB;
+}
+
