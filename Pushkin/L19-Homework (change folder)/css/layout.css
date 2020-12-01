@@ -1,0 +1,108 @@
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.cf:before, .cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.ba-container,.ba-container-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+html {
+    height: 100%;
+}
+body, html {
+    min-height: 100%;
+}
+/* Text align */
+
+.ba-text-left {
+    text-align: left;
+}
+
+.ba-text-right {
+    text-align: right;
+}
+
+.ba-text-center {
+    text-align: center;
+}
+
+
+/* Floats */
+
+.ba-float-left {
+    float: left;
+}
+
+.ba-float-right {
+    float: right;
+}
+
+.ba-float-none {
+    float: none;
+}
+
+
+/* Vertical align */
+
+.ba-vertical-align:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+[class*="ba-vertical-align-"] {
+    display: inline-block;
+}
+
+.ba-vertical-align-top {
+    vertical-align: top;
+}
+
+.ba-vertical-align-middle {
+    vertical-align: middle;
+}
+
+.ba-vertical-align-bottom {
+    vertical-align: bottom;
+}
+
+
+/* Absolute centering */
+
+.ba-relative {
+    position: relative;
+}
+
+.ba-absolute-center {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+
+/* Circle element */
+
+.ba-circle {
+    border-radius: 50%;
+}
