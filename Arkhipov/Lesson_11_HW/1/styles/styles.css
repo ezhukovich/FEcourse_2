@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700;900&display=swap');
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.fresh-life{
+    background-color: #F9F9FB;
+    font-family: 'Raleway', sans-serif;
+}
+
+.text-color_dark-gray{
+    color: #262626;
+}
+
+.wrapper_settings{
+    position: relative;
+    width: 100%;
+    
+}
+
+.fresh-life__container{
+    background: #F9F9FB url(../images/fresh_life_background.jpg);
+    height: 1000px;
+}
+
+.fresh-life__container_width{
+    width: 1500px;
+}
+
+.container_position{ 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header{
+    position: relative; 
+}
+
+.header__logo{
+    position: absolute;
+    display: inline-block;
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+}
+
+.header__logo_position{
+    top: 41px;
+    left: 193px;
+}
+
+.navigation{
+    position: relative;
+    display: inline-flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 560px;
+}
+
+.navigation_position{
+    left: 777px;
+    top: 57px;
+}
+
+.navigation__link{
+    position: relative;
+    text-decoration: none;
+    font-size: 16px; 
+    font-weight: 600;
+}
+
+.navigation__link:hover:before, .navigation__link_active:before {
+    position: absolute;
+    content: '';
+    width: 107%;
+    height: 3px;
+    left: -2px;
+    top: -9px;
+    background-color: #FF6033;
+}
+
+.fresh-life__header{
+    position: relative;
+    font-size: 60px;
+    font-weight: 900;
+    width: 370px;
+    line-height: 25px;
+}
+
+.fresh-life__header_position{
+    left: 165px;
+    margin-top: 350px;
+    margin-bottom: 33px;
+}
+
+.fresh-life__text{
+    width: 370px;
+}
+
+.text{
+    position: relative;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px;
+}
+
+.fresh-life__text_position{
+    left: 165px;
+    margin-bottom: 34px;
+}
+
+.button{
+    text-transform: uppercase;
+    background-color: #FF6033;
+    border: none;
+    color: #fff;
+    width: 200px;
+    height: 55px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.button:hover{
+    background-color: rgb(255, 0, 21);
+}
+
+.fresh-life__button{
+    position: relative;
+    left: 165px;
+}
+
+.scroll-icon{
+    width: 24px;
+    position: relative; 
+}
+
+.scroll-icon_position{
+    margin-top: 295px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-us{
+    position: relative;
+    padding-top: 1px;
+    background-color: #00B9B9;
+    height: 700px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.about-us__container_width{
+    width: 1500px;
+
+}
+
+.about-us__image-container{
+    position: absolute;
+    overflow: hidden;
+    width: 630px;
+    height: 640px;
+}
+
+.about-us__image-container_position{
+    top: 45px;
+    margin-left: 120px;
+}
+
+.about-us__image_position{
+    position: absolute;
+    left: -40px;
+    top: -40px;
+}
+
+.about-us__header{
+    position: relative;
+    font-size: 90px;
+    font-weight: 900;
+    line-height: 90px;
+}
+
+.about-us__header_position{
+    margin-top: 190px;
+    margin-left: 832px;
+    margin-bottom: 30px;
+}
+
+.about-us__text{
+    width: 500px;
+}
+.about-us__text_position{
+    margin-left: 832px;
+    margin-bottom: 21px;
+}

@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline; 
+}
+
+*{
+    box-sizing: border-box;
+    
+}
+
+.b-contact{
+    position: relative;
+    padding-top: 1px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1500px;
+    height: 866px;
+    background-image: url(../images/contact_background.jpg);
+    background-repeat: no-repeat;
+    font-family: 'Raleway', sans-serif;
+}
+
+.b-contact__header{
+    margin-top: 100px;
+    text-align: center;
+    color: #262626;
+    font-size: 90px;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+
+.b-contact__text{
+    position: relative;
+    text-align: center;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 43px;
+}
+
+.b-contact-form{
+    display: inline-block;
+    margin-left: 165px;
+}
+
+.b-contact-form_display_error {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.b-contact-form__input:invalid + .b-contact-form_display_error::after {
+    display: inline-block;
+    position: absolute;
+    padding-left: 7px;
+    color: red;
+    content: attr(data-error);
+}
+
+
+.b-contact-form__input{
+    position: relative;
+    width: 500px;
+    height: 50px;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    background-color: rgba(0,196,196, 0.5); 
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    padding-right: 20px;
+    letter-spacing: 1px;  
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    border-left: 5px solid transparent;
+    outline: none;
+    
+}
+
+.b-contact-form__input[type="text"],
+.b-contact-form__input[type="email"],
+.b-contact-form__input[type="tel"],
+.b-contact-form__textarea{
+    padding: 15px;
+}
+
+.b-contact-form__input:focus{
+    background-color: rgba(0,196,196, 1); 
+    font-weight: 700;
+    border-left: 5px solid #355B82;
+}
+
+
+.b-contact-form__input::placeholder{
+    font-weight: 300;
+    font-size: 15px;
+    color: #fff;
+}
+
+.b-contact-form__textarea{
+    height: 250px;
+    resize: none;
+}
+
+.b-contact-my-contacts{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 170px;
+    color: #262626;
+    line-height: 25px;
+}
+
+.b-contact-my-contacts h3{
+    font-size: 17px;
+    font-weight: 700;
+    color: #262626;
+}
+
+.b-contact-my-contacts p{
+    font-size: 20px;
+    font-weight: 300;
+    color: #262626;
+}
+
+
+
+
+
+.b-footer{
+    display: block;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 1px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1500px;
+    height: 90px;
+    background-color: #262626;
+    font-size: 16px;
+    color: #B9B9B9;
+    text-align: center;
+}
+.b-footer__content{
+    margin-top: 27px;
+}
+
+.b-footer__copyright{
+    display: inline-block;
+}
+
+.b-footer____logo{
+    display: inline-block;
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    margin-left: 309px;
+    margin-right: 363px;
+}
+
+.b-footer__creator{
+    display: inline-block;
+    font-size: 15px;
+}
+
+.b-footer__creator > span{
+    color: #FF2B58;
+    font-weight: 700;
+}
+

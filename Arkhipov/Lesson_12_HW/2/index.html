@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Work 12.2</title>
+    <link href="styles/style.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="register-form">
+       
+        <div class="sigin-signup-selector">
+                <input class="form-selection__input" id="signIn" type="radio" name="form-selector" checked>
+                <label class="form-selection__label" for="signIn">Sign in</label>
+                <input class="form-selection__input" id="joinUs" type="radio" name="form-selector">
+                <label class="form-selection__label" for="joinUs">Join us</label>
+            
+
+                <div class="signin-form-container">
+                    <form class="signin-form">
+                        <div class="form-input-container">
+                            <label class="form__label" for="signin-username">Username</label>
+                            <input class="form__input" type="text" id="signin-username" minlength="5"> 
+                            <span>error</span>
+                        </div>
+
+                        <div class="form-input-container">
+                            <label class="form__label" for="signin-password">Username</label>
+                            <input class="form__input" type="password" id="signin-password"> 
+                            <span>error</span>
+                        </div>
+                        
+                        <div class="form-checkbox-container">
+                            <input class="keep_me_signed_in__checkbox" type="checkbox" id="keep_me_signed_in">
+                            <label class="keep_me_signed_in__label" for="keep_me_signed_in" data-checked=" 	
+                            &#10003">Keep me signed in</label>
+                        </div>
+                        
+                        <button class="submit-button">Sign in</button>
+                    </form>
+                    <div class="forgot_password_link"><a href="#">Forgot password</a></div>
+                    <div class="create_account_link"><a href="#">Create an account</a></div>  
+
+                </div>
+
+
+                <div class="signup-form-container">
+                    <form class="signup-form">
+                        <div class="form-input-container">
+                            <label class="form__label" for="joinus-username">Username</label>
+                            <input class="form__input" type="text" id="joinus-username" minlength="2"> 
+                            <span>error</span>
+                        </div>
+
+                        <div class="form-input-container">
+                            <label class="form__label" for="joinus-password">Password</label>
+                            <input class="form__input" type="password" id="joinus-password"> 
+                            <span>error</span>
+                        </div>
+
+                        <div class="form-input-container">
+                            <label class="form__label" for="joinus-password">Repeat password</label>
+                            <input class="form__input" type="password" id="joinus-password"> 
+                            <span>error</span>
+                        </div>
+                        
+                        
+                        
+                        <button class="submit-button">Sign in</button>
+
+                    </form>
+                </div>
+
+
+
+
+
+
+            
+                </div>
+        </div>
+        
+        
+        
+
+
+
+        
+
+    </div>
+</body>
+</html>
