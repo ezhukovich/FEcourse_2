@@ -1,0 +1,49 @@
+@import'reset';
+@import'mixins';
+
+$defBackgroundColor: #ff0;
+
+%container{
+    @include width(1000px);
+   
+    margin: 0 auto;
+    padding: 50px;
+    background-color: $defBackgroundColor;
+    
+}
+%borderbottom{
+    position: relative;
+    &:after{
+content:"";
+position: absolute;
+bottom: 2px;
+left: 0px;
+width: 40px;
+height: 2px;
+background-color: black;
+
+
+    }
+}
+.container{
+@extend %container;
+
+    span{
+        font-size: 16px;
+        font-weight: bold;
+        color: red;
+    }
+}
+.container2{
+    @extend %container;
+
+    background-color: blue;
+}
+a{
+    @extend %borderbottom;
+    text-decoration: none;
+    color: $defBackgroundColor;
+    &:hover{
+        color: blue;
+    }
+}
