@@ -6,45 +6,62 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+    <button onClick="CircleCreate()" id="circle_btn">Add Circle</button>
+    <button onClick="squareCreate()">Add Square</button>
+    <button onClick="rhombusCreate()">Add Rhombus</button>
 <script>
 
-    let circle = document.createElement('div');
-    document.body.appendChild(circle);
-    circle.id = 'circle';
+    // function modifyText(new_text) {
+    //     let t2 = document.getElementById("circle_btn");
+    //     t2.firstChild.nodeValue = new_text;
+    // }
+    //
+    // let el = document.getElementById("circle_btn");
+    // el.addEventListener("click", () => { modifyText("Remove"); });
 
-    let box = document.createElement('div');
-    document.body.appendChild(box);
-    box.id = 'box';
 
-    let rhombus = document.createElement('div');
-    document.body.appendChild(rhombus);
-    rhombus.id = 'rhombus';
-
-    let size = '50px';
-    let border = '1px solid black';
-    let borderRadius = '50%';
-    let angle = 'rotate(45deg)';
-
-    let elementStyles = () => {
-        box = document.getElementById('box');
-        box.style.border = border;
-        box.style.height = size;
-        box.style.width = size;
-
-        rhombus = document.getElementById('rhombus');
-        rhombus.style.border = border;
-        rhombus.style.height = size;
-        rhombus.style.width = size;
-        rhombus.style.transform = angle;
+    let CircleCreate = () => {
+        let circle = document.createElement('div');
+        document.body.appendChild(circle);
+        circle.id = 'circle';
 
         circle = document.getElementById('circle');
-        circle.style.border = border;
-        circle.style.height = size;
-        circle.style.width = size;
-        circle.style.borderRadius = borderRadius;
+        circle.style.border = obj.border;
+        circle.style.height = obj.size;
+        circle.style.width = obj.size;
+        circle.style.borderRadius = obj.borderRadius;
     };
 
-    document.body.onload = elementStyles;
+    let squareCreate = () => {
+        let square = document.createElement('div');
+        document.body.appendChild(square);
+        square.id = 'box';
+
+        square = document.getElementById('box');
+        square.style.border = obj.border;
+        square.style.height = obj.size;
+        square.style.width = obj.size;
+    };
+
+    let rhombusCreate = () => {
+        let rhombus = document.createElement('div');
+        document.body.appendChild(rhombus);
+        rhombus.id = 'rhombus';
+
+        rhombus = document.getElementById('rhombus');
+        rhombus.style.border = obj.border;
+        rhombus.style.height = obj.size;
+        rhombus.style.width = obj.size;
+        rhombus.style.transform = obj.angle;
+    };
+
+    let obj = {
+        size: '50px',
+        border: '1px solid black',
+        borderRadius: '50%',
+        angle: 'rotate(45deg)',
+    };
+
 </script>
 </body>
 </html>
