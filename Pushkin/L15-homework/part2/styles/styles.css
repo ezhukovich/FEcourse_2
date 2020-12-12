@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 1072px;
+    background-image: url(/Pushkin/L15-homework/part2/styles/img/bg.png);
+    background-position: center;
+}
+.header_logo{
+    margin-top: 285px;
+}
+.header_title{
+    padding-top: 74px;
+    width: 560px;
+    font-size: 54px;
+letter-spacing: 9px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Lato";
+text-align: center;
+    
+}
+.header_text{
+    padding-top: 51px;
+    width: 589px;
+    height: 322px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 29px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: center;
+    text-transform: uppercase;
+}
+.header_scroll{
+    margin-top: 25px;
+}
+.main_container{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 135px auto;
+    padding: 75px 0;
+    width: 902px;
+height: fit-content;
+background-color: transparent;
+border: 2px solid #3c3c3c;
+}
+.main_container::before{
+    position: absolute;
+    background-color:#ffffff;
+    width: 420px;
+    top: -22px;
+  content: "ABOUT US";
+font-size: 34px;
+letter-spacing: 5px;
+color: #3c3c3c;
+font-weight: 700;
+font-family: "Lato";
+text-align: center;
+
+}
+main>.main_container::before{
+    content: "WHAT WE DO";
+
+}
+nav .main_container::before{
+    content: "CONTACT US";
+}
+
+.main_container__text--1{
+width: 534px;
+text-align: center;
+font-size: 16px;
+line-height: 24px;
+color: #3c3c3c;
+font-weight: 300;
+font-family: "Lato";
+
+}
+.main_container__text--2{
+    width: 370px;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3c3c3c;
+    font-weight: 300;
+    font-family: "Lato";
+
+}
+.main_services{
+    background-image: url(/Pushkin/L15-homework/part2/styles/img/services.png);
+    width: 100%;
+    height: 488px;
+    padding-top: 20px;
+   
+}
+
+fieldset{
+    margin:50px auto;
+    width: 902px;
+    color: #ffffff;
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 75px 0;
+height: fit-content;
+background-color: transparent;
+border: 2px solid #fff;
+}
+legend{
+    text-align: center;
+    width: 420px;
+    font-size: 34px;
+letter-spacing: 5px;
+color: #fff;
+font-weight: 700;
+font-family: "Lato";
+text-align: center;
+text-transform: uppercase;
+}
+.main_container--white p{
+width: 543px;
+
+font-size: 16px;
+line-height: 26px;
+color: #ffffff;
+font-weight: 300;
+font-family: "Lato";    
+text-align: center;
+}
+.design_text{
+    margin-top: 26px;
+    width: 553px;
+
+font-size: 14px;
+line-height: 26px;
+color: #3c3c3c;
+font-weight: 300;
+font-family: "Lato";
+text-align: center;
+padding-bottom: 40px;
+}
+.title_what-we-do{
+    margin-top: 33px;
+    font-size: 20px;
+letter-spacing: 3px;
+color: #3c3c3c;
+font-weight: 700;
+font-family: "Lato";
+text-align: center;
+}
+.main_container>svg{
+    width: 80px;
+    height: 80px;
+    margin-top: 29px;
+}
+ul{
+    width: 100%;
+    height: 484px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: space-between;
+}
+ul>li{
+   list-style: none;
+height: 237px;
+    text-transform: uppercase;
+    font-size: 34px;
+
+color: #ffffff;
+font-weight: 700;
+font-family: "Lato";
+background-repeat: no-repeat;
+
+
+}
+
+li>span{
+    display: block;
+width: 190px;
+    margin:158px 298px 32px 60px;
+}
+.topworkz{
+    background-image: url(/Pushkin/L15-homework/part2/styles/img/box1.png);
+width: 28%;
+}
+.joint{
+    background-image: url(/Pushkin/L15-homework/part2/styles/img/box2.png);
+    width: 42%;
+}
+.market{
+    background-image: url(/Pushkin/L15-homework/part2/styles/img/box3.png);
+    width: 29%;}
+
+.worktop{
+    background-image: url(/Pushkin/L15-homework/part2/styles/img/box4.png);
+    width: 28%;
+}
+.label{
+    background-image: url(/Pushkin/L15-homework/part2/styles/img/box5.png);
+    width: 42%;
+  
+}
+.kyiv{
+    background-image: url(/Pushkin/L15-homework/part2/styles/img/box6.png);
+    width: 29%;
+}
+
+.button{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    width: 395px;
+height: 58px;
+background-color: #3c3c3c;
+border: 2px solid #3c3c3c;
+font-size: 16px;
+letter-spacing: 3px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Lato";
+
+text-transform: uppercase;
+text-decoration: none;
+}
+footer{
+    display:flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+footer span{
+    padding-top: 5px;
+    padding-left: 15px;
+    font-size: 14px;
+color: #3c3c3c;
+font-weight: 400;
+font-family: "Lato";
+}
+footer svg{
+    padding-bottom: 5px;
+width: 35px;
+height: 37px;
+
+}
+
+
+@media screen and (max-width:1110px){
+    ul{
+        flex-direction: column;
+        flex-wrap:nowrap;
+        height:auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .topworkz{
+         width: 548px;
+    }
+    .joint{
+        width: 548px;
+
+    }
+    .market{
+        width: 548px;
+    }
+    
+    .worktop{
+        width: 548px;
+
+    }
+    .label{
+        width: 548px;
+
+      
+    }
+    .kyiv{
+        width: 548px;
+
+    }
+}
+@media screen and (max-width:905px){
+    .main_container{
+        width: 100%;
+    }
+    fieldset{
+        width: 100%;
+    }
+  
+
+}
+@media screen and (max-width:600px){
+    .header_title{
+    width: 100%;
+    }
+    .header_text{
+        width: 100%;
+    }
+}
+@media screen and (max-width:548px){
+    .topworkz{
+        width: 100%;
+   }
+   .joint{
+    width: 100%;
+
+   }
+   .market{
+    width: 100%;
+   }
+   
+   .worktop{
+    width: 100%;
+
+   }
+   .label{
+    width: 100%;
+
+     
+   }
+   .kyiv{
+    width: 100%;
+
+   }
+   .main_container__text--1{
+       width: 100%;
+   }
+   .main_container__text--2{
+    width: 100%;
+   }
+   .main_container--white p{
+       width: 100%;
+   }
+   .design_text{
+       width: 100%;
+   }
+   .button{
+       width: 75%;
+   }
+   .main_container::before{
+       width: 75%;
+   }
+   legend{
+       width: 75%;
+   }
+}
