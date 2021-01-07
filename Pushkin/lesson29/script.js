@@ -129,7 +129,7 @@ obj = {};
 
 for (let i in newData) {
     if (obj.hasOwnProperty(newData[i].type)) {
-        obj[newData[i].type].push(NewData[i]);
+        obj[newData[i].type].push(newData[i]);
     }
     else {
         obj[newData[i].type] = [newData[i]];
