@@ -1,0 +1,1 @@
+let c = prompt("GIve me number")
