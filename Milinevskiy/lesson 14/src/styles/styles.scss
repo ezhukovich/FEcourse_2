@@ -1,0 +1,33 @@
+@import 'reset';
+@import 'mixins';
+$defbackgroundColor: rgb(58, 122, 64);
+
+%container{
+@include width(300px);
+margin: 0 auto;
+padding: 20px;
+background-color: $defbackgroundColor;
+}
+.container{
+@extend %container;
+
+
+span {
+font-size: 16px;
+font-weight: bold;
+color: red;
+}
+}
+
+.container2 {
+@extend %container;
+background-color: royalblue;
+}
+a{
+    text-decoration: none;
+    color: $defbackgroundColor;
+
+    &:hover{
+        color: rgb(102, 74, 32);
+    }
+}

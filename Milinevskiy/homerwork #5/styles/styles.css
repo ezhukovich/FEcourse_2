@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    height: 420px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align:justify;
+    background-image: url(/images/PICTURE.png);
+    color: #fff;
+    
+}
+.social_part{
+    padding-top: 200px;
+    padding-left: 45px;
+    width: 230px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.line{
+    width: 230px;
+    height: 1px;
+    background-color: #ffffff;
+    margin-top: 10px;
+}
+.social_links{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.copiright{
+    padding-top: 10px;
+    font-family: 'Open Sans' sans-serif;
+    font-weight: 600px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #ffffff;
+   
+}
+span.color_text{
+    color: #00C7FC;
+}

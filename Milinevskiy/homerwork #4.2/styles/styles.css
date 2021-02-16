@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    bottom: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #990909;
+    font-size: 18px;
+}
+header{
+    text-align: center;
+    padding: 10px 0 5px;
+}
+p.nav{
+    display: flex; 
+}
