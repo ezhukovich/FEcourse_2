@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-size: 1em;
+    } 
+
+.b-our-services{
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+    width: 1500px;
+    height: 790px;
+    background-color: #70BFFF;
+    padding-top: 1px;
+}
+
+.our_services_list{
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    margin-left: 265px;
+    margin-top: 179px;  
+}
+
+.our_services_item{
+    position: relative;
+    width: 400px;
+    height: 100px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    color: #262626;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+h3{
+    width: 300px;
+    display: inline-block;
+    text-align: center;
+    line-height: 27px; 
+}
+
+.our_services_item:after{
+    content: '';
+    position: absolute;
+    height: 100px;
+    width: 2px;
+    background-color: #9D9D9D;
+    left: 300px;
+}
+
+.our_services_item__icon{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.b_our_services__header{
+    position: relative;
+    margin-top: 99px;
+    margin-left: 99px;
+    text-align: right;
+    background: url("../images/tomatoes.png") no-repeat;
+    background-position: right 0;
+    height: 527px;
+
+}
+
+.b_our_services__header h2{
+    position: relative;
+    font-size: 90px;
+    font-weight: 700;
+    margin-top: 227px;
+    color: #fff;
+    line-height: 70px;
+}
+
