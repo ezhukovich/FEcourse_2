@@ -1,0 +1,10 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+div{
+    margin: 500px;
+    transform: rotate(60deg);
+    width: calc(100% / 3);
+}

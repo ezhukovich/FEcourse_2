@@ -1,0 +1,820 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  height: 1000px;
+  background-image: url(/Pushkin/L14-homework/part2/Cahee/dist/img/img1.png);
+  background-size: auto;
+  position: relative;
+}
+
+.header__title {
+  position: absolute;
+  top: 43px;
+  left: 147px;
+  font-size: 50px;
+  line-height: 25px;
+  color: #262626;
+  font-weight: 400;
+  font-family: "Pacifico";
+  text-align: right;
+}
+
+.header__nav {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  width: 680px;
+  top: 57px;
+  right: 165px;
+}
+
+.header__nav > div {
+  border: solid 3px transparent;
+  width: auto;
+  font-size: 16px;
+  color: #262626;
+  font-weight: 700;
+  font-family: "Raleway";
+  text-align: right;
+}
+
+.header__content {
+  position: absolute;
+  top: 340px;
+  left: 160px;
+  width: 374px;
+  height: 185px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.header__content_title {
+  font-size: 60px;
+  line-height: 25px;
+  color: #262626;
+  font-family: "Raleway";
+}
+
+.header__content_text {
+  width: 370px;
+  height: 69px;
+  font-size: 17px;
+  line-height: 27px;
+  color: #262626;
+  font-weight: 300;
+  font-family: "Raleway";
+}
+
+.header__button {
+  position: absolute;
+  top: 540px;
+  left: 165px;
+  font-size: 20px;
+  line-height: 27px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Raleway";
+  width: 200px;
+  height: 55px;
+  filter: drop-shadow(0px 2px 2.5px rgba(0, 0, 0, 0.5));
+  background-color: #ff6033;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__button a {
+  text-decoration: none;
+  color: #262626;
+}
+
+.header__scroll {
+  position: absolute;
+  top: 891px;
+  left: 50%;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  background-color: #00B5B5;
+}
+
+.main__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main__content_title {
+  font-size: 90px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Raleway";
+}
+
+.main_content_text {
+  margin-top: 50px;
+  max-width: 500px;
+  min-height: 202px;
+  font-size: 17px;
+  line-height: 27px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Raleway";
+}
+
+.header__nav > div:hover {
+  border-top: solid 3px #ff6033;
+}
+
+.header__button:hover {
+  background-color: transparent;
+  color: tomato;
+  border: solid 3px #ff6033;
+}
+
+.header__scroll:hover::after {
+  content: "go up?";
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: "Raleway";
+  font-weight: 700;
+  position: absolute;
+  left: 40px;
+}
+
+.blog {
+  width: 100%;
+  height: 865px;
+  background-color: #B07CF7;
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+
+.h1 {
+  display: block;
+  padding-top: 69px;
+  text-align: center;
+  font-size: 90px;
+  font-weight: 700;
+}
+
+.h2 {
+  margin: 40px auto 34px auto;
+  display: block;
+  width: 570px;
+  height: 63px;
+  font-size: 17px;
+  line-height: 25px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Raleway";
+  text-align: center;
+}
+
+.container {
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+  width: 1170px;
+  height: 310px;
+}
+
+.container > div {
+  position: relative;
+  height: 310px;
+  width: 370px;
+  filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.5));
+}
+
+.block1-blog {
+  background-image: url(/Pushkin/L14-homework/part2/Cahee/dist/img/1.png);
+}
+
+.block2-blog {
+  background-image: url(/Pushkin/L14-homework/part2/Cahee/dist/img/2.png);
+}
+
+.block3-blog {
+  background-image: url(/Pushkin/L14-homework/part2/Cahee/dist/img/3.png);
+}
+
+.date {
+  position: absolute;
+  top: 25px;
+  left: 30px;
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  background-color: #262626;
+  font-size: 32px;
+  line-height: 25px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.month {
+  margin-top: 3px;
+  display: block;
+  font-size: 21px;
+}
+
+.textbox {
+  padding-left: 10px;
+  position: absolute;
+  bottom: 4px;
+  left: 4px;
+  width: 370px;
+  height: 79px;
+  font-size: 20px;
+  line-height: 25px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.who-when {
+  font-weight: 300;
+  display: block;
+  font-size: 13px;
+}
+
+.button_blog {
+  margin: 50px auto 0 auto;
+  width: 200px;
+  height: 55px;
+  background-color: #F72B3B;
+  border: solid 1px #F72B3B;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: "Raleway";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: drop-shadow(0px 2px 2.5px rgba(0, 0, 0, 0.5));
+}
+.button_blog a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.inside {
+  background-image: linear-gradient(to top, black 0%, rgba(0, 0, 0, 0) 100%);
+  width: inherit;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+}
+
+.container > div:hover {
+  transform: scale(1.1);
+}
+
+.button_blog:hover {
+  color: #ff7a59;
+  opacity: 0.8;
+}
+
+.tomato_wrapper {
+  background-color: #70BFFF;
+  min-height: 790px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.back_text {
+  z-index: 999;
+  position: relative;
+  font-size: 90px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Raleway";
+}
+.back_text::after {
+  position: absolute;
+  bottom: -220px;
+  z-index: -999;
+  content: "";
+  display: block;
+  width: 500px;
+  height: 525px;
+  background-image: url(/Pushkin/L14-homework/part2/Cahee/dist/img/tomato.png);
+  background-repeat: no-repeat;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  width: 400px;
+  height: 100px;
+  filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.5));
+  background-color: #ffffff;
+}
+
+.title-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 100px;
+  font-weight: 700;
+  font-family: "Raleway";
+}
+
+.line {
+  width: 1px;
+  height: 100px;
+  background-color: #9d9d9d;
+}
+
+.nav svg {
+  padding-right: 10px;
+}
+
+.svg_size {
+  width: 55px;
+}
+
+.nav:hover > span {
+  opacity: 0.5;
+}
+
+.nav:hover svg {
+  transform: scale(1.5);
+  transition: 0.3s ease;
+}
+
+ul {
+  list-style: none;
+}
+
+.wrapper_contact {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.main_contact {
+  background-image: url(/Pushkin/L14-homework/part2/Cahee/dist/img/Clip.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.main__title {
+  padding-top: 100px;
+  font-size: 90px;
+  color: #262626;
+  font-weight: 700;
+  font-family: "Raleway";
+  text-align: center;
+}
+
+.main__textbox {
+  margin: 40px auto 0 auto;
+  width: 570px;
+  height: 66px;
+  font-size: 17px;
+  line-height: 25px;
+  color: #262626;
+  font-weight: 300;
+  font-family: "Raleway";
+  text-align: center;
+}
+
+.main__section {
+  /* margin-left: auto;
+   margin-right: auto;
+  /* width: 1170px; */
+  /* if space betwen */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-bottom: 70px;
+}
+
+.main__section__form {
+  max-width: 500px;
+}
+
+.main__section__adress {
+  max-width: 500px;
+  padding: 20px;
+  font-size: 17px;
+  line-height: 25px;
+  color: #262626;
+  font-weight: 300;
+  font-family: "Raleway";
+}
+
+.main__section__adress--font {
+  font-weight: 700;
+}
+
+footer {
+  height: 90px;
+  background-color: #262626;
+  display: flex;
+  color: white;
+}
+
+.footer__copyright {
+  margin: 32px auto 37px 164px;
+  font-size: 16px;
+  line-height: 25px;
+  color: #b9b9b9;
+  font-weight: 300;
+  font-family: "Raleway";
+}
+
+.footer__logo {
+  width: 100px;
+  margin: 28px auto;
+  font-size: 25px;
+  line-height: 25px;
+  color: #b9b9b9;
+  font-weight: 400;
+  font-family: "Pacifico";
+  text-align: right;
+}
+
+.footer__dev-name {
+  margin: 33px 172px 37px auto;
+  font-size: 15px;
+  line-height: 25px;
+  color: #b9b9b9;
+  font-weight: 300;
+  font-family: "Raleway";
+}
+
+.footer__dev-name span > span {
+  color: #ff2b58;
+}
+
+li input::placeholder, textarea::placeholder {
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Raleway";
+}
+
+li input, textarea {
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Raleway";
+  width: 500px;
+  background-color: #00C4C4;
+  border: none;
+  opacity: 50%;
+}
+
+li input {
+  height: 50px;
+}
+
+textarea {
+  height: 250px;
+  resize: none;
+}
+
+li {
+  margin-top: 15px;
+}
+
+textarea:focus, li input:focus {
+  font-weight: 700;
+  opacity: 1;
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Raleway";
+  outline: none;
+  border-left: solid 3px #355B82;
+}
+
+.button_contact {
+  width: 100px;
+  height: 50px;
+  background-color: #00C4C4;
+  border: none;
+  opacity: 50%;
+}
+
+.button_contact:hover {
+  opacity: 1;
+}
+
+.gallery {
+  height: 1536px;
+  background-color: #FFE92F;
+}
+.gallery .title_gallery {
+  padding-top: 75px;
+  display: block;
+  text-align: center;
+  font-size: 90px;
+  color: #262626;
+  font-weight: 700;
+  font-family: "Raleway";
+}
+.gallery .text_gallery {
+  margin: 20px auto;
+  display: block;
+  width: 630px;
+  height: 69px;
+  font-size: 17px;
+  line-height: 27px;
+  color: #262626;
+  font-weight: 300;
+  font-family: "Raleway";
+  text-align: center;
+}
+.gallery .gallery-photos {
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 1170px;
+  height: 980px;
+}
+.gallery .gallery-photos .photo1andblock1 {
+  display: flex;
+  justify-content: space-between;
+}
+.gallery .gallery-photos .photo1andblock1 .photo1 {
+  filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.5));
+  background: url(/Pushkin/L14-homework/part2/Cahee/dist/img/gallery1.png);
+  width: 770px;
+  height: 550px;
+}
+.gallery .gallery-photos .photo1andblock1 .block1 {
+  filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.5));
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.gallery .gallery-photos .photo1andblock1 .block1 .photo2 {
+  background: url(/Pushkin/L14-homework/part2/Cahee/dist/img/gallery2.png);
+  width: 370px;
+  height: 260px;
+}
+.gallery .gallery-photos .photo1andblock1 .block1 .photo3 {
+  background: url(/Pushkin/L14-homework/part2/Cahee/dist/img/gallery3.png);
+  width: 370px;
+  height: 260px;
+}
+.gallery .gallery-photos .block2 {
+  filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.5));
+  display: flex;
+  justify-content: space-between;
+}
+.gallery .gallery-photos .block2 .photo4 {
+  background: url(/Pushkin/L14-homework/part2/Cahee/dist/img/gallery4.png);
+  width: 570px;
+  height: 400px;
+}
+.gallery .gallery-photos .block2 .photo5 {
+  background: url(/Pushkin/L14-homework/part2/Cahee/dist/img/gallery5.png);
+  width: 570px;
+  height: 400px;
+}
+.gallery .gallery-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  width: 200px;
+  height: 55px;
+  background-color: #5585a2;
+}
+.gallery .gallery-button a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Raleway";
+}
+.gallery .gallery-button:hover {
+  filter: drop-shadow(0px 2px 2.5px rgba(0, 0, 0, 0.5));
+}
+
+.subscribe {
+  background-image: url(/Pushkin/L14-homework/part2/Cahee/dist/img/subscribe.png);
+  height: 500px;
+}
+.subscribe .title_subscribe {
+  padding: 130px 0 0 191px;
+  display: block;
+  font-size: 40px;
+  color: #262626;
+  font-weight: 700;
+  font-family: "Raleway";
+}
+.subscribe .subscribe_text {
+  padding: 18px 0 7px 162px;
+  display: block;
+  width: 572px;
+  height: 50px;
+  font-size: 17px;
+  color: #262626;
+  font-weight: 300;
+  font-family: "Raleway";
+}
+.subscribe .form_subscribe {
+  margin: 50px 0 163px 165px;
+}
+.subscribe .input_subscribe {
+  width: 570px;
+  height: 55px;
+  background-color: rgba(38, 38, 38, 0);
+  border: 1px solid #262626;
+  color: #686868;
+  font-weight: 300;
+  font-size: 20px;
+  font-family: "Raleway";
+}
+.subscribe .input_subscribe::placeholder {
+  padding-left: 20px;
+  font-size: 20px;
+  color: #686868;
+  font-weight: 300;
+  font-family: "Raleway";
+}
+.subscribe .subscribe_button {
+  margin-left: 20px;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Raleway";
+  width: 170px;
+  height: 55px;
+  filter: drop-shadow(0px 2px 2.5px rgba(0, 0, 0, 0.5));
+  background-color: #96b92c;
+  border: 1px solid #96b92c;
+}
+.subscribe .subscribe_button:hover {
+  cursor: pointer;
+  opacity: 50%;
+}
+
+@media screen and (max-width: 1235px) {
+  .header__title {
+    left: 10px;
+  }
+
+  .header__nav {
+    right: 10px;
+  }
+
+  .main {
+    flex-direction: column;
+  }
+  .main .main__image {
+    margin: 0 auto;
+  }
+  .main .main__content {
+    align-items: center;
+  }
+
+  .photo1, .photo2, .photo3, .photo4, .photo5 {
+    margin-top: 20px;
+  }
+
+  .gallery {
+    padding-bottom: 50px;
+    height: auto;
+  }
+  .gallery .gallery-button {
+    margin: 0 auto;
+  }
+  .gallery .gallery-photos {
+    width: 100%;
+    height: auto;
+  }
+  .gallery .gallery-photos .photo1andblock1, .gallery .gallery-photos .block2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .blog {
+    height: auto;
+    padding-bottom: 50px;
+  }
+  .blog .container {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+  .blog .container > div {
+    margin: 20px;
+  }
+}
+@media screen and (max-width: 970px) {
+  .header__nav {
+    top: 100px;
+  }
+
+  .tomato_wrapper {
+    flex-direction: column;
+  }
+
+  .back_text::after {
+    display: none;
+  }
+
+  .subscribe_button {
+    margin-top: 20px;
+  }
+
+  .footer__copyright {
+    margin-left: 2px;
+  }
+
+  .footer__dev-name {
+    margin-right: 2px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .header__nav {
+    display: none;
+  }
+
+  .photo1 {
+    display: none;
+  }
+
+  .form_subscribe .input_subscribe {
+    width: auto;
+    margin-right: 0;
+  }
+
+  .main__section {
+    flex-direction: column-reverse;
+  }
+
+  .gallery .text_gallery {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .header__content {
+    left: 0%;
+  }
+
+  .photo5, .photo4 {
+    display: none;
+  }
+
+  .footer__dev-name {
+    display: none;
+  }
+
+  .h2 {
+    width: auto;
+  }
+
+  .subscribe {
+    height: auto;
+  }
+  .subscribe .subscribe_text {
+    width: auto;
+    height: auto;
+    margin: 0;
+    text-align: left;
+  }
+
+  .main__textbox {
+    width: auto;
+  }
+
+  li input, textarea {
+    width: 270px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .nav {
+    width: 300px;
+  }
+
+  .title-nav {
+    width: 200px;
+    justify-content: flex-start;
+    overflow-x: hidden;
+  }
+}

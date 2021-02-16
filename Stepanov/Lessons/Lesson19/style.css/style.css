@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 800px;
+}
+
+.image {
+    background-image: url(../test.jpg);
+    margin: 100px 20px;
+    border: 2px solid black;
+    height: 500px;
+    width: calc(100% / 3 + 600px);
+    box-shadow: 5px 10px 10px black;
+}

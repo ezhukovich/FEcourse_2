@@ -1,0 +1,98 @@
+
+body{
+    margin: 0% 30%;
+    background-color: lightgrey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color: rgb(97, 80, 86);
+    
+}
+header{
+    margin: 1% 0%;
+    
+}
+ 
+.photo{
+   
+ position: relative;
+ top: 175px;
+ right: 300px;
+ border-radius: 100px;
+}
+div.Name{
+    
+display: inline-block;
+position: relative;
+left: 200px;
+ font-size: 17pt;
+}
+p.email{
+    
+    position: relative;
+    left: 370px;
+    top: 10px;
+    font-size: 17pt;
+}
+div.icon1{
+    position: relative;
+    left: 300px;
+    bottom: 50px;
+    
+}
+div.icon2{
+    position: relative;
+    left: 300px;
+    bottom: 100px;
+    
+}
+p.phone{
+    display: inline-block;
+    position: relative;
+    left: 370px;
+    bottom: 35px;
+    font-size: 17pt;
+
+}
+p.H1{
+    background-color: rgb(160, 148, 177);
+    padding: 1%;
+    text-align: center;
+    font-stretch: ultra-expanded;
+    position:relative;
+    border-radius: 20px;
+}
+p.H2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+div.footH{
+    font-size: 20pt;
+}
+div.SN{
+    font-size: 19pt;
+}
+p.snoska{
+font-family: cursive;
+}
+div.SN{
+    margin: 20px;
+    position: relative;
+    left: 200px;
+}
+.imgSN{
+    position: relative;
+    left: 200px;
+margin-bottom: 20px;
+padding: 5px;
+
+}
+button.button{
+    position: relative;
+    left: 300px;
+}
+.FLAG{
+ position: fixed;
+top: 92%;
+
+left: 1%;
+}

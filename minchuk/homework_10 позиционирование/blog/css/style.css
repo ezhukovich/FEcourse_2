@@ -1,0 +1,111 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;} /* для IE */
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;} /* для FF */
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+body{
+    background-color: #b07cf7;
+    color: #ffffff;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;    
+}
+.wrapper{
+    max-width: 1180px;
+    min-height: 864px;
+    margin: 95px auto 115px;
+}
+h1{
+    font-size: 90px;
+    font-weight: 700;
+    display: inline-block;
+    height: 88px;
+}
+.desc {
+    font-size: 17px;
+    font-weight: 300;
+    width: 568px;
+    margin: 0 auto 45px;
+}
+.posts {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.post{
+    position: relative;
+    width: 370px;
+    height: 310px;
+    background-color: #ffffff;
+}
+.post img{
+    width: 370px;
+    height: 310px;
+}
+.grad{
+    position: absolute;
+    bottom: 0;
+    height: 310px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(255, 255, 255, 0.1) 50%);
+    padding-top: 157px;
+}
+.desc_post{
+
+    margin: 45px 35px 20px 15px;
+    text-align: left;
+}
+.title {
+   font-size: 20px;
+   font-weight: 700;
+   margin-bottom: 13px;
+}
+.author {
+   font-size: 13px;
+   font-weight: 300;
+}
+.date{
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: rgba(38, 38, 38, 0.5);
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.date_number{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.date_month {
+    font-family: "Raleway - Heavy";
+    font-size: 21px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.btn_more {
+    display: block;
+    width: 200px;
+    height: 55px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    background-color: #f72b3b;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0 auto;
+    color: #ffffff;
+    line-height: 2.7;
+}

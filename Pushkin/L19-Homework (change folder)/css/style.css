@@ -1,0 +1,282 @@
+
+
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@font-face {
+  font-family: "BebasNeueBold";
+  src: url(./fonts/bebas_neue/BebasNeue\ Bold.otf); 
+ }
+ @font-face {
+  font-family: "BebasNeueBook";
+  src: url(./fonts/bebas_neue/BebasNeue\ Book.otf); 
+ }
+ @font-face {
+  font-family: "BebasNeueLight";
+  src: url(./fonts/bebas_neue/BebasNeue\ Light.otf); 
+ }
+ @font-face {
+  font-family: "BebasNeueRegular";
+  src: url(./fonts/bebas_neue/BebasNeue\ Regular.otf); 
+ }
+ @font-face {
+  font-family: "BebasNeueThin";
+  src: url(./fonts/bebas_neue/BebasNeue\ Thin.otf); 
+ }
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+background-color: #9789F9;
+
+}
+
+/* Layout */
+.ba-container{
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 1200px;
+
+}
+
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+  -webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  -o-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+  display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+  -webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  -o-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+/* my styles */
+h3{
+  margin:0;
+}
+.ba-pricing{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  
+}
+.ba-price{
+  
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+
+}
+.ba-pricing__col{
+background: url(./small_ass.png);
+  width: 325px;
+height: 611px;
+background-color: #F5F4F9;
+}
+.circle_p{
+position: absolute;
+text-align: center;
+font-family: "BebasNeueBook";
+line-height: 46px;
+color: #F5F4F9;
+left: 300px;
+top: 20px;
+width: 46px;
+height: 46px;
+border-radius: 23px;
+background-color: #fd8d7b;
+}
+.circle_p2{
+  position: absolute;
+  left: 340px;
+top: 10px;
+  width: 17px;
+height: 17px;
+border-radius: 50%;
+background-color: #fd8d7b;
+}
+.circle_p3{
+  position: absolute;
+  left: 355px;
+top: 5px;
+  width: 7px;
+height: 7px;
+border-radius: 50%;
+background-color: #fd8d7b;
+}
+
+.ba-pricing__col--center{
+  position: relative;
+ width: 370px; 
+ height: 691px;
+background: url(./big_ass.png);
+}
+.ba-pricing__col--center>div{
+  padding: 40px 0;
+}
+.ba-pricing__col--center div>h3{
+  padding:0;
+}
+.ba-price a{
+    text-align: center;
+    line-height: 54px;
+    position: absolute;
+    top:583px;
+    font-size: 18px;
+letter-spacing: 1px;
+color: #ffffff;
+font-weight: 700;
+font-family: "BebasNeueBold";
+}
+#central_link{
+background-color: #FD8D7B;
+
+}
+.discount{
+  padding-top: 100px;
+  text-align: center;
+  font-size: 11px;
+line-height: 53px;
+color: #a9a9a9;
+font-weight: 300;
+font-family: "Roboto";
+width: 300px;
+}
+.ba-price__rate{
+  position: relative;
+  padding-top: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 60px;
+    letter-spacing: 5px;
+    line-height: 36px;
+    color: #181818;
+    font-weight: 200;
+    font-family: "BebasNeueThin";;
+}
+.ba-price__rate::after{
+  position: absolute;
+  top: 56px;
+  left: 50px;
+content: "/HR";
+font-size: 16px;
+letter-spacing: 1px;
+line-height: 36px;
+color: #181818;
+font-weight: 300;
+font-family: "BebasNeueLight";
+}
+.ba-price__rate::before{
+  position: absolute;
+right: 54px;
+bottom: 15px;
+content: "$";
+font-size: 24px;
+letter-spacing: 2px;
+line-height: 36px;
+color: #181818;
+font-weight: 300;
+font-family: "BebasNeueLight";
+}
+#central_rate::after{
+top: 15px;
+}
+.ba-price__position{
+  position: relative;
+  font-size: 24px;
+  letter-spacing: 1px;
+  line-height: 36px;
+  color: #181818;
+  font-weight: 400;
+  font-family: "BebasNeueRegular";
+}
+.ti-hummer, .ti-paint-bucket, .ti-palette {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+font-size: 30px;
+padding-top:30px;
+}
+.ba-price__body ul{
+  list-style: none;
+  font-size: 16px;
+  line-height: 53px;
+  color: #181818;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  width: 500px;
+  }
+  ul li{
+    padding-left: 125px;
+  }
+  .ba-button{
+    
+    width: 203px;
+  height: 54px;
+  border-radius: 27px;
+  -webkit-filter: drop-shadow(2.424px 4.373px 9px rgba(133,192,247,0.31));
+          filter: drop-shadow(2.424px 4.373px 9px rgba(133,192,247,0.31));
+  background-color: #6fcffb;
+  }
+  @media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  
+    .ba-button{
+      right: 70px;
+    }
+
+    }
+  

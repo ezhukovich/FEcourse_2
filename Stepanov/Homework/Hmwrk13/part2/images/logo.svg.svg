@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="67" height="70" viewBox="0 0 67 70">
+  <g id="logo.svg" transform="translate(-928 -285)">
+    <g id="Rectangle_1" data-name="Rectangle 1" fill="none">
+      <path d="M990.674,352.857l-28.814-55-28.814,55Z" stroke="none"/>
+      <path d="M 987.3687744140625 350.8569030761719 L 961.860107421875 302.1693725585938 L 936.3515014648438 350.8569030761719 L 987.3687744140625 350.8569030761719 M 990.6744995117188 352.8569030761719 L 933.0457763671875 352.8569030761719 L 961.860107421875 297.8598937988281 L 990.6744995117188 352.8569030761719 Z" stroke="none" fill="#fff"/>
+    </g>
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(928 285)" fill="none" stroke="#f6f7fc" stroke-width="2">
+      <ellipse cx="33.5" cy="33.21" rx="33.5" ry="33.21" stroke="none"/>
+      <ellipse cx="33.5" cy="33.21" rx="32.5" ry="32.21" fill="none"/>
+    </g>
+    <ellipse id="Ellipse_1_copy_8" data-name="Ellipse 1 copy 8" cx="3.6" cy="3.57" rx="3.6" ry="3.57" transform="translate(958.26 347.86)" fill="#fff"/>
+    <ellipse id="Ellipse_1_copy_9" data-name="Ellipse 1 copy 9" cx="3.6" cy="3.57" rx="3.6" ry="3.57" transform="translate(984.92 347.86)" fill="#fff"/>
+    <ellipse id="Ellipse_1_copy_11" data-name="Ellipse 1 copy 11" cx="3.6" cy="3.57" rx="3.6" ry="3.57" transform="translate(929.44 347.86)" fill="#fff"/>
+  </g>
+</svg>

@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+.header {
+    width: 100%;
+    height: 1000px;
+    background-image: url(/Pushkin/L14-homework/part2/Cahee/dist/img/img1.png);
+    background-position: center;
+
+  }
+  
+  .header__title {
+   
+    font-size: 50px;
+    color: #262626;
+    font-weight: 400;
+    font-family: "Pacifico";
+    
+  }
+  
+  
+  .header__content {
+    position: absolute;
+    top: 340px;
+    left: 160px;
+    width: 374px;
+    height: 185px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .header__content_title {
+    font-size: 60px;
+    line-height: 25px;
+    color: #262626;
+    font-family: "Raleway";
+  }
+  
+  .header__content_text {
+    width: 370px;
+    height: 69px;
+    font-size: 17px;
+    line-height: 27px;
+    color: #262626;
+    font-weight: 300;
+    font-family: "Raleway";
+  }
+  
+  .header__button {
+    position: absolute;
+    top: 540px;
+    left: 165px;
+    font-size: 20px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Raleway";
+    width: 200px;
+    height: 55px;
+    filter: drop-shadow(0px 2px 2.5px rgba(0, 0, 0, 0.5));
+    background-color: #ff6033;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header__button a {
+    text-decoration: none;
+    color: #262626;
+  }
+  
+  .header__scroll {
+    position: absolute;
+    top: 891px;
+    left: 50%;
+  }
+  .header__nav {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 680px;
+    top: 40px;
+    right: 165px;
+    font-size: 20px;
+    color: #262626;
+    font-weight: 400;
+    font-family: "Pacifico";
+  }
+  nav{
+      position: absolute;
+      left: -100px;
+     display: none;
+     align-items: center;
+    justify-content: space-between;
+      
+      width: 130px;
+      height: 100%;
+  }
+  .burger{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff6033;
+    width: 100px;
+    height: 100%;
+  }
+
+  .burger_item{
+    font-size: 20px;
+    color: #262626;
+    font-weight: 400;
+    font-family: "Pacifico";
+  }
+  .namemenu{
+    writing-mode: vertical-lr;
+    letter-spacing: 3px;
+    color: #000;
+  }
+ 
+#burger_button{
+  display: none;
+}
+#burger_button:checked + nav{
+  
+left: 0px;
+position: fixed;
+transition: all 1s ease-in-out;
+
+}
+.height{
+  width: 100%;
+  height: 100vmax;
+}
+/* тут на дизайн не тратил время , главное идея :)  */
+@media screen and (max-width:1000px){
+  .header__nav{
+    display: none;
+  }
+  nav{
+    display: flex;
+  }
+}

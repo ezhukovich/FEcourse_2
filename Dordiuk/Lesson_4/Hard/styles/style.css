@@ -1,0 +1,59 @@
+body {
+    background-color:#7d0909;
+    font-size: 18px;
+    color: honeydew;
+}
+
+#title {
+width: 100%;
+}
+
+aside {
+    background-color: #920305;
+    width: 300px;
+    height: 300px;
+    color: orange;
+    float: left;
+}
+
+aside a{
+    text-decoration: orangered;
+}
+
+.right_column {
+    float: right;
+    background-color: #fff;
+    width: 170px;
+    height: 300px;
+    color: black;
+}
+
+h2 {
+    background-color: grey;
+    text-align: center;
+    margin-top: 0px;
+}
+
+footer {
+    background-color: #d04609;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 115px;
+}
+
+nav {
+   text-align: center;
+   background-color: rgb(0, 0, 0);
+   color: honeydew;
+}
+
+.pic {
+    margin-top: 15px;
+    margin-right: 150px;
+}
+
+table {
+    margin-right: 150px;
+    border: 0px;
+    text-align: center;
+}
