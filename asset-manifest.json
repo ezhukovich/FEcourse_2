@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/PaymentFormReat/static/css/main.e8d38372.chunk.css",
-    "main.js": "/PaymentFormReat/static/js/main.c76e8c34.chunk.js",
-    "main.js.map": "/PaymentFormReat/static/js/main.c76e8c34.chunk.js.map",
-    "runtime-main.js": "/PaymentFormReat/static/js/runtime-main.cb383e93.js",
-    "runtime-main.js.map": "/PaymentFormReat/static/js/runtime-main.cb383e93.js.map",
-    "static/css/2.e132acaa.chunk.css": "/PaymentFormReat/static/css/2.e132acaa.chunk.css",
-    "static/js/2.c5cfe399.chunk.js": "/PaymentFormReat/static/js/2.c5cfe399.chunk.js",
-    "static/js/2.c5cfe399.chunk.js.map": "/PaymentFormReat/static/js/2.c5cfe399.chunk.js.map",
-    "index.html": "/PaymentFormReat/index.html",
-    "static/css/2.e132acaa.chunk.css.map": "/PaymentFormReat/static/css/2.e132acaa.chunk.css.map",
-    "static/css/main.e8d38372.chunk.css.map": "/PaymentFormReat/static/css/main.e8d38372.chunk.css.map",
-    "static/js/2.c5cfe399.chunk.js.LICENSE.txt": "/PaymentFormReat/static/js/2.c5cfe399.chunk.js.LICENSE.txt"
+    "main.css": "/PaymentFormReact/static/css/main.e8d38372.chunk.css",
+    "main.js": "/PaymentFormReact/static/js/main.c76e8c34.chunk.js",
+    "main.js.map": "/PaymentFormReact/static/js/main.c76e8c34.chunk.js.map",
+    "runtime-main.js": "/PaymentFormReact/static/js/runtime-main.57b86dd3.js",
+    "runtime-main.js.map": "/PaymentFormReact/static/js/runtime-main.57b86dd3.js.map",
+    "static/css/2.e132acaa.chunk.css": "/PaymentFormReact/static/css/2.e132acaa.chunk.css",
+    "static/js/2.c5cfe399.chunk.js": "/PaymentFormReact/static/js/2.c5cfe399.chunk.js",
+    "static/js/2.c5cfe399.chunk.js.map": "/PaymentFormReact/static/js/2.c5cfe399.chunk.js.map",
+    "index.html": "/PaymentFormReact/index.html",
+    "static/css/2.e132acaa.chunk.css.map": "/PaymentFormReact/static/css/2.e132acaa.chunk.css.map",
+    "static/css/main.e8d38372.chunk.css.map": "/PaymentFormReact/static/css/main.e8d38372.chunk.css.map",
+    "static/js/2.c5cfe399.chunk.js.LICENSE.txt": "/PaymentFormReact/static/js/2.c5cfe399.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.cb383e93.js",
+    "static/js/runtime-main.57b86dd3.js",
     "static/css/2.e132acaa.chunk.css",
     "static/js/2.c5cfe399.chunk.js",
     "static/css/main.e8d38372.chunk.css",
